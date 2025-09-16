@@ -1,13 +1,12 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Montserrat, Montserrat_Alternates } from "next/font/google";
 import "./globals.css";
+import Navbar from "../components/navbar";
+import InfiniteMarquee from "../components/marquee";
+import Hero from "../components/hero";
+import Footer from "../components/footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
   subsets: ["latin"],
 });
 
@@ -20,10 +19,19 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${montserrat.className} w-full min-h-screen antialiased overflow-x-hidden`}
+        cz-shortcut-listen="true"
       >
-        {children}
+        <Navbar />
+        <InfiniteMarquee />
+        <Hero />
+        <main>
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );
+
+
 }
