@@ -10,7 +10,7 @@ const ImportantDates = () => {
   ];
 
   return (
-    <div className="px-3 py-5 max-h-[350px] h-[350px] max-w-4xl mx-auto border rounded-xl ">
+    <div className="px-3 py-5 min-h-[350px] max-w-4xl mx-auto border rounded-xl ">
       <h2 className="text-3xl font-bold text-center text-[#005B96] mb-6">
         Important Dates
       </h2>

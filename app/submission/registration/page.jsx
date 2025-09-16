@@ -1,9 +1,15 @@
 import React from 'react'
 import TextSection from '../../../components/text'
 
+export const metadata = {
+  title: "Registration",
+  description: "Registration categories and fee details for ICISET 2026.",
+  keywords: ["ICCISET", "registration", "fees", "delegates"],
+};
+
 const Registration = () => {
   return (
-    <div>
+    <div className="px-4 sm:px-6 lg:px-10">
       <TextSection title="Registration">
         <div className="overflow-x-auto">
           <table className="min-w-full border border-gray-200 text-sm text-left">

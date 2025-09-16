@@ -1,4 +1,10 @@
 import React from 'react'
+
+export const metadata = {
+  title: "Call for Papers",
+  description: "ICISET 2026 call for papers — tracks, submission guidelines, and review process.",
+  keywords: ["ICCISET", "call for papers", "CFP", "submission"],
+};
 import TextSection from '../../../components/text'
 import Accordion from '../../../components/accordion'
 
@@ -46,7 +52,7 @@ const CallForPapers = () => {
   ]
 
   return (
-    <div className='py-5'>
+    <div className='px-4 sm:px-6 lg:px-10 py-5'>
       <TextSection title="Call For Papers">
         <p> All papers must be original and not simultaneously submitted to another journal or conference. The submissions may be of any form from the following: The recent development in artificial intelligence and embedded systems has increased the potential of receiving and processing huge amounts of real-time data in Cyber-Physical Systems (CPS). CPS is the engineered physical system able to perceive and process the information and act accordingly. These physical systems are well inter-connected, coordinated and integrated by computing and communication. Computing and communication devices have become much faster, cheaper and consume less power. It has become significant to understand, analyse and apply the knowledge of artificial intelligence in CPS to provide more intelligent physical systems and involve more and more end users who are still isolated. Artificial intelligence (AI) can provide the capability of any physical system to apply human-like intelligence to the perceived information in order to achieve its goal. The growing area of CPS with AI can provide the smart machines and networked physical systems to perform tasks in remote and dangerous areas. Currently, the intelligent cyber-physical systems are gaining momentum at an unprecedented pace to combine AI and CPS for many real-time applications. Still, this domain is facing many challenges and gaps and lagging behind in implementation in the real world, which needs improvements and more attention. This conference aims to collect the latest developments and original contributions in all related technologies of AI and CPS and their applications. This conference is an effort to bring together the leading researchers, academicians and industry experts to share their ideas, recent developments, upcoming challenges and directions in the area of intelligent CPS. We encourage the experienced and young researchers worldwide to submit the papers with new ideas, theories, analytical studies, methods and applications of AI and CPS. This conference would be of immense benefit to academicians, young researchers, industry persons, students and others who are working in this area.</p>
         <br />

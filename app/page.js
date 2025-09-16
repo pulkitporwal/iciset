@@ -7,12 +7,19 @@ import NewsSection from "../components/news";
 import TextSection from "../components/text";
 import Image from "next/image";
 
+export const metadata = {
+  title: "ICISET 2026 - International Conference on Intelligent Systems and Emerging Technologies",
+  description:
+    "ICISET 2026 — official conference website. Explore about the conference, university, and department details.",
+  keywords: ["ICISET", "conference", "intelligent systems", "emerging technologies", "Amity Jaipur"],
+};
+
 export default function Home() {
   return (
-    <div className="w-screen overflow-x-hidden flex flex-col ">
+    <div className="w-full overflow-x-hidden flex flex-col ">
       <div className="bg-pattern">        
-        <div className="mx-24 pt-4 pb-8">
-          <div className="flex items-center justify-center px-5 gap-x-10">
+        <div className="px-4 sm:px-6 lg:px-10 xl:mx-24 pt-4 pb-8">
+          <div className="flex flex-col md:flex-row items-start lg:items-center justify-center gap-6 lg:gap-x-10">
             <NewsSection />
             <ImportantDates /></div>
         </div>

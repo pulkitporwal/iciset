@@ -1,5 +1,11 @@
 import React from "react";
 
+export const metadata = {
+  title: "Student Volunteers",
+  description: "Student Volunteers for ICISET 2026.",
+  keywords: ["ICCISET", "student volunteers", "conference volunteers"],
+};
+
 const Committee = () => {
   const members = [
     {
@@ -75,7 +81,7 @@ const Committee = () => {
   ];
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-10 py-8">
       <h2 className="text-2xl font-bold text-[#005B96] mb-4">
         Committee Members
       </h2>
@@ -95,7 +101,7 @@ const Committee = () => {
               <img
                 src={m.image}
                 alt={m.name}
-                className="w-20 h-20 rounded-full mr-4 object-cover"
+                className="w-14 h-14 md:w-20 md:h-20 rounded-full mr-4 object-cover"
               />
               <div>
                 <div className="font-semibold">{m.name}</div>

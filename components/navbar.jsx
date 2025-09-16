@@ -23,7 +23,7 @@ const Navbar = () => {
     },
     { name: "Keynote/Guest Speaker", link: "/speakers" },
     {
-      name: "Paper Submission", 
+      name: "Paper Submission",
       submenu: true,
       subLinks: [
         { name: "Instruction for Authors", link: "/submission/instruction" },
@@ -33,9 +33,16 @@ const Navbar = () => {
         { name: "Registration", link: "/submission/registration" },
         { name: "Submission Form", link: "/submission/submission-form" },]
     },
-    { name: "Call For Sponsors", link: "#" },
-    { name: "Venue", link: "#" },
-    { name: "Contact Us", link: "#" },
+    { name: "Call For Sponsors", link: "call-for-sponsors" },
+    {
+      name: "Venue", submenu: true,
+      subLinks: [
+        { name: "Conference Venue", link: "/venue/conference" },
+        { name: "Transportation", link: "/venue/transportation" },
+        { name: "VISA", link: "/venue/visa" },
+      ]
+    },
+    { name: "Contact Us", link: "/contact" },
   ];
 
   const toggleMobileDropdown = (index) => {

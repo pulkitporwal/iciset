@@ -1,12 +1,18 @@
 import TextSection from '../../../components/text'
 import React from 'react'
 
+export const metadata = {
+  title: "Instruction for Authors",
+  description: "Author instructions for ICISET 2026 submissions — formatting and policies.",
+  keywords: ["ICCISET", "instructions", "authors", "formatting", "policies"],
+};
+
 const SectionHeading = ({ children }) => (
-  <h2 className="text-xl font-semibold mt-6 mb-2">{children}</h2>
+  <h2 className="text-xl md:text-2xl font-semibold mt-6 mb-2">{children}</h2>
 )
 
 const SubHeading = ({ children }) => (
-  <h3 className="text-lg font-semibold mt-4 mb-1">{children}</h3>
+  <h3 className="text-lg md:text-xl font-semibold mt-4 mb-1">{children}</h3>
 )
 
 const Paragraph = ({ children }) => (

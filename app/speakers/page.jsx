@@ -1,5 +1,11 @@
 import React from 'react'
 
+export const metadata = {
+  title: "Keynote/Guest Speakers",
+  description: "Keynote and guest speakers for ICISET 2026.",
+  keywords: ["ICCISET", "speakers", "keynote", "guest speakers"],
+};
+
 const Speakers = () => {
     const speakers = [
     {
@@ -88,12 +94,12 @@ const Speakers = () => {
     },
   ];
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-10 py-8">
       <h2 className="text-3xl font-bold text-center text-[#005B96] mb-10">
         Keynote/Guest Speakers
       </h2>
 
-      <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div className="grid gap-6 sm:gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {speakers.map((speaker, index) => (
           <div
             key={index}
@@ -102,7 +108,7 @@ const Speakers = () => {
             <img
               src={speaker.image}
               alt={speaker.name}
-              className="w-24 h-24 rounded-full object-cover mb-4 border-2 border-blue-600"
+              className="w-24 h-24 md:w-28 md:h-28 rounded-full object-cover mb-4 border-2 border-blue-600"
             />
             <h3 className="text-lg font-semibold text-gray-800">{speaker.name}</h3>
             <p className="text-sm text-gray-600 mt-1 mb-4">{speaker.affiliation}</p>

@@ -32,8 +32,8 @@ const Accordion = ({ data, title = "Frequently Asked Questions" }) => {
             </button>
 
             <div
-              className={`overflow-hidden transition-all duration-300 ${
-                openIndex === index ? "max-h-40 mt-2" : "max-h-0"
+              className={`overflow-hidden transition-all duration-500 ${
+                openIndex === index ? "min-h-40 mt-2" : "max-h-0"
               }`}
             >
               <div className="text-gray-600">{faq.answer}</div>

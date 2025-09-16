@@ -1,5 +1,11 @@
 import React from "react";
 
+export const metadata = {
+  title: "Technical Program Committee",
+  description: "Technical Program Committee for ICISET 2026.",
+  keywords: ["ICCISET", "technical program committee", "TPC"],
+};
+
 const Committee = () => {
   const members = [
     {
@@ -62,7 +68,7 @@ const Committee = () => {
   ];
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-10 py-8">
       <h2 className="text-2xl font-bold text-[#005B96] mb-4">
         Committee Members
       </h2>
