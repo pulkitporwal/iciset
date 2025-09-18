@@ -9,7 +9,7 @@ export default function InfiniteMarquee() {
         className="absolute whitespace-nowrap will-change-transform animate-marquee"
       >
         <div className="inline-block text-[#0D2C54] font-semibold text-base">
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All accepted and presented papers will be published in the conference proceedings by Springer in the Algorithms for Intelligent Systems series (Proposal submitted for approval).
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All accepted and presented papers will be published in the conference proceedings by Springer in the Algorithms for Intelligent Systems series (Proposal submitted for approval).&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All accepted and presented papers will be published in the conference proceedings by Springer in the Algorithms for Intelligent Systems series (Proposal submitted for approval).&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All accepted and presented papers will be published in the conference proceedings by Springer in the Algorithms for Intelligent Systems series (Proposal submitted for approval).&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All accepted and presented papers will be published in the conference proceedings by Springer in the Algorithms for Intelligent Systems series (Proposal submitted for approval).&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All accepted and presented papers will be published in the conference proceedings by Springer in the Algorithms for Intelligent Systems series (Proposal submitted for approval).&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All accepted and presented papers will be published in the conference proceedings by Springer in the Algorithms for Intelligent Systems series (Proposal submitted for approval).
         </div>
       </div>
 
