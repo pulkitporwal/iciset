@@ -20,7 +20,7 @@ const ContactUs = () => {
                         <h3 className="text-lg font-semibold">Contact Details</h3>
                         <p>
                             <span className="font-medium">Email:</span>{" "}
-                            conference@iciset2026.org
+                            conference@iset2026.org
                         </p>
                         <p>
                             <span className="font-medium">Phone:</span> +91-123-456-7890

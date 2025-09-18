@@ -3,7 +3,7 @@ import React from 'react'
 
 export const metadata = {
   title: "Important Dates",
-  description: "Important dates and deadlines for ICISET 2026.",
+  description: "Important dates and deadlines for ISET 2026.",
   keywords: ["ICCISET", "important dates", "deadlines", "timeline"],
 };
 

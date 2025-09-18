@@ -2,7 +2,7 @@ import React from "react";
 
 export const metadata = {
   title: "Organizing Committee",
-  description: "Organizing Committee for ICISET 2026 at Amity University Jaipur.",
+  description: "Organizing Committee for ISET 2026 at Amity University Jaipur.",
   keywords: ["ICCISET", "organizing committee", "conference committee"],
 };
 

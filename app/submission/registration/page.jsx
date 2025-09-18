@@ -3,7 +3,7 @@ import TextSection from '../../../components/text'
 
 export const metadata = {
   title: "Registration",
-  description: "Registration categories and fee details for ICISET 2026.",
+  description: "Registration categories and fee details for ISET 2026.",
   keywords: ["ICCISET", "registration", "fees", "delegates"],
 };
 

@@ -2,7 +2,7 @@ import React from "react";
 
 export const metadata = {
   title: "Student Volunteers",
-  description: "Student Volunteers for ICISET 2026.",
+  description: "Student Volunteers for ISET 2026.",
   keywords: ["ICCISET", "student volunteers", "conference volunteers"],
 };
 

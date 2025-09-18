@@ -2,7 +2,7 @@ import React from "react";
 
 export const metadata = {
   title: "Technical Program Committee",
-  description: "Technical Program Committee for ICISET 2026.",
+  description: "Technical Program Committee for ISET 2026.",
   keywords: ["ICCISET", "technical program committee", "TPC"],
 };
 

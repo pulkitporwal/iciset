@@ -2,7 +2,7 @@ import React from "react";
 
 export const metadata = {
   title: "International Advisory Board",
-  description: "International Advisory Board members for ICISET 2026.",
+  description: "International Advisory Board members for ISET 2026.",
   keywords: ["ICCISET", "international advisory", "conference board"],
 };
 

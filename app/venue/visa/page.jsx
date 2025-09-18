@@ -21,14 +21,14 @@ const VisaInformation = () => {
               href="mailto:icscps.ncr@christuniversity.in"
               className="text-blue-600 hover:underline"
             >
-              iciset@amity.edu
+              iset@amity.edu
             </a>{" "}
             to request a visa invitation letter so that you can print and use it
             in obtaining a visa.
           </p>
 
           <p className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded text-sm">
-            ⚠️ Obtaining a Visa Support Letter from ICISET-2026 Conference will{" "}
+            ⚠️ Obtaining a Visa Support Letter from ISET-2026 Conference will{" "}
             <span className="font-semibold">not guarantee</span> that your India
             visa application will be approved. The letter is supplementary
             information that explains a visa applicant's intended purpose of

@@ -8,10 +8,10 @@ import TextSection from "../components/text";
 import Image from "next/image";
 
 export const metadata = {
-  title: "ICISET 2026 - International Conference on Intelligent Systems and Emerging Technologies",
+  title: "ISET 2026 - International Conference on Intelligent Systems and Emerging Technologies",
   description:
-    "ICISET 2026 — official conference website. Explore about the conference, university, and department details.",
-  keywords: ["ICISET", "conference", "intelligent systems", "emerging technologies", "Amity Jaipur"],
+    "ISET 2026 — official conference website. Explore about the conference, university, and department details.",
+  keywords: ["ISET", "conference", "intelligent systems", "emerging technologies", "Amity Jaipur"],
 };
 
 export default function Home() {

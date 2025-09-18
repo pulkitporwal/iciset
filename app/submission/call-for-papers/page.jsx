@@ -2,7 +2,7 @@ import React from 'react'
 
 export const metadata = {
   title: "Call for Papers",
-  description: "ICISET 2026 call for papers — tracks, submission guidelines, and review process.",
+  description: "ISET 2026 call for papers — tracks, submission guidelines, and review process.",
   keywords: ["ICCISET", "call for papers", "CFP", "submission"],
 };
 import TextSection from '../../../components/text'

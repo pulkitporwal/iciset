@@ -3,7 +3,7 @@ import React from 'react'
 
 export const metadata = {
   title: "Instruction for Authors",
-  description: "Author instructions for ICISET 2026 submissions — formatting and policies.",
+  description: "Author instructions for ISET 2026 submissions — formatting and policies.",
   keywords: ["ICCISET", "instructions", "authors", "formatting", "policies"],
 };
 

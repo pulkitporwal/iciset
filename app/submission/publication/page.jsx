@@ -2,7 +2,7 @@ import React from 'react'
 
 export const metadata = {
   title: "Publication & Indexing",
-  description: "Publication details and indexing information for ICISET 2026 proceedings.",
+  description: "Publication details and indexing information for ISET 2026 proceedings.",
   keywords: ["ICCISET", "publication", "indexing", "Springer", "SIST"],
 };
 import TextSection from '../../../components/text'

@@ -12,14 +12,14 @@ const montserrat = Montserrat({
 
 export const metadata = {
   title: {
-    default: "International Conference on Intelligent Systems and Emerging Technologies (ICISET 2026)",
-    template: "%s | ICISET 2026",
+    default: "International Conference on Intelligent Systems and Emerging Technologies (ISET 2026)",
+    template: "%s | ISET 2026",
   },
   description:
-    "Official website for ICISET 2026 hosted by Amity University Jaipur, Rajasthan — conference details, committees, speakers, submissions, and important dates.",
+    "Official website for ISET 2026 hosted by Amity University Jaipur, Rajasthan — conference details, committees, speakers, submissions, and important dates.",
   keywords: [
-    "ICISET",
-    "ICISET 2026",
+    "ISET",
+    "ISET 2026",
     "International Conference",
     "Intelligent Systems",
     "Emerging Technologies",
@@ -28,7 +28,7 @@ export const metadata = {
     "Call for papers",
     "Conference Registration",
   ],
-  applicationName: "ICISET 2026",
+  applicationName: "ISET 2026",
   authors: [{ name: "Pulkit Porwal" }],
   creator: "Pulkit Porwal",
   publisher: "Pulkit Porwal",
@@ -44,26 +44,26 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: "International Conference on Intelligent Systems and Emerging Technologies (ICISET 2026)",
+    title: "International Conference on Intelligent Systems and Emerging Technologies (ISET 2026)",
     description:
-      "Conference website for ICISET 2026 — committees, speakers, submissions, dates, and venue information.",
+      "Conference website for ISET 2026 — committees, speakers, submissions, dates, and venue information.",
     type: "website",
     locale: "en_US",
-    siteName: "ICISET 2026",
+    siteName: "ISET 2026",
     images: [
       {
         url: "/amity-logo.png",
         width: 1200,
         height: 630,
-        alt: "ICISET 2026 - Amity University Jaipur",
+        alt: "ISET 2026 - Amity University Jaipur",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "ICISET 2026 — International Conference on Intelligent Systems and Emerging Technologies",
+    title: "ISET 2026 — International Conference on Intelligent Systems and Emerging Technologies",
     description:
-      "Explore ICISET 2026: committees, speakers, submissions, registration, and key dates.",
+      "Explore ISET 2026: committees, speakers, submissions, registration, and key dates.",
     images: ["/amity-logo.png"],
   },
   icons: {
