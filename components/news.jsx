@@ -3,21 +3,21 @@ import React from "react";
 const NewsSection = () => {
   const news = [
     {
-      title: "Published in conference proceedings by Springer",
-      content: `‘Smart Innovation, Systems and Technologies’ ISSN: 2190-3018, Book Series.`,
+      title: "All accepted and presented papers will be published in the conference proceedings by Springer in the Algorithms for Intelligent Systems series (Proposal submitted for approval).",
+      content: ``,
       highlight: true,
     },
-    {
-      title: "Indexing",
-      content:
-        "Indexed by SCOPUS, INSPEC, WTI Frankfurt eG, zbMATH, SCImago. All books published in the series are submitted for consideration in the Web of Science.",
-      highlight: false,
-    },
-    {
-      title: "Special Issue of Journals",
-      content: "Keep checking for more updates...",
-      highlight: false,
-    },
+    // {
+    //   title: "Indexing",
+    //   content:
+    //     "Indexed by SCOPUS, INSPEC, WTI Frankfurt eG, zbMATH, SCImago. All books published in the series are submitted for consideration in the Web of Science.",
+    //   highlight: false,
+    // },
+    // {
+    //   title: "Special Issue of Journals",
+    //   content: "Keep checking for more updates...",
+    //   highlight: false,
+    // },
   ];
 
   return (

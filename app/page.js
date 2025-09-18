@@ -17,19 +17,21 @@ export const metadata = {
 export default function Home() {
   return (
     <div className="w-full overflow-x-hidden flex flex-col ">
-      <div className="bg-pattern">        
+      <div className="bg-pattern">
         <div className="px-4 sm:px-6 lg:px-10 xl:mx-24 pt-4 pb-8">
           <div className="flex flex-col md:flex-row items-start lg:items-center justify-center gap-6 lg:gap-x-10">
             <NewsSection />
             <ImportantDates /></div>
         </div>
-        <TextSection title={"About Conference"}>
+        <TextSection title={"About the Conference"}>
           <p>
-            The aim of the International Conference on Smart Cyber Physical Systems (ICSCPS-2026) is to bring together the academicians, researchers, and industrial professionals to discuss and exchange their knowledge, innovative ideas, latest issues, advanced technologies, and advancements in the area of Sustainable Development Goals, Cyber physical systems, and related applications that will be presented in the conference. Cyber-physical systems (CPS) are societal-scale engineered systems that are built from and depend upon the seamless, correct and safe integration of physical processes, computation components, and, in most cases the human supervisors. As a multi-disciplinary discipline, CPS engineering requires theoretical analysis, advanced heuristics, artificial intelligence, security methodologies and big data to work seamlessly together. The deployment of CPS is profoundly transforming how we interact with the physical world, just as the world wide web transformed how we interact with one another. The impact of CPS science is visible across a number of challenging domains, including autonomous systems, agriculture, aeronautics, building design, civil infrastructure, energy, environmental quality, healthcare and personalized medicine, manufacturing, and transportation. Further integration and innovations in CPS will continue to have an enormous societal and economic impact.
+            The International Conference on Intelligent Systems and Emerging Technologies (ISET 2026) is a premier global forum that brings together researchers, academicians, industry professionals, and practitioners to explore the latest advancements in intelligent systems and cutting-edge technologies. Scheduled to be held in 2026, this conference aims to foster collaboration, innovation, and knowledge sharing across multiple domains, driving the development of sustainable and smart solutions for real-world challenges.
           </p>
           <p>
-
-            The International Conference on Smart Cyber Physical Systems (ICSCPS-2026) will act as an International platform to share and demonstrate novel approaches, development, technology improvement and research among interested researchers, students, developers, and practitioners. The conference invites and encourages the submissions in terms of concepts, surveys, state-of-art original and unpublished research, running implementation, applications, industrial case studies and in-progress research that can be categorized among regular and poster papers. The conference will be having many plenary and invited keynote talks by the international reputed speakers covering the latest topic of a wide range of interested researchers.
+            ISET 2026 will provide a dynamic platform for presenting high-quality research in areas such as Artificial Intelligence (AI), Machine Learning (ML), Deep Learning, Internet of Things (IoT), Cyber-Physical Systems, Robotics, Big Data Analytics, Cloud and Edge Computing, Smart Cities, and Emerging Technologies in healthcare, education, and industry 4.0. The event will feature keynote addresses from renowned experts, panel discussions on future trends, and technical sessions showcasing original research contributions from around the world.
+          </p>
+          <p>
+            The conference proceedings will be published by a reputed publisher and indexed in major scientific databases, ensuring wide visibility and recognition of the presented work. Participants will have the opportunity to network with peers, explore collaborative research possibilities, and gain insights into state-of-the-art technological innovations. By uniting diverse perspectives and expertise, ISET 2026 seeks to advance scientific knowledge, encourage interdisciplinary research, and promote the adoption of intelligent systems and emerging technologies for a sustainable future. This conference will serve as a catalyst for innovation, equipping researchers and professionals to address global challenges through transformative technological solutions.
           </p>
         </TextSection>
         <TextSection title={"About University"}>

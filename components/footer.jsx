@@ -37,13 +37,11 @@ const Footer = () => {
         {/* Middle Section */}
         <div>
           <h3 className="text-xl font-bold mb-2">Vision</h3>
-          <p className="mb-4">EXCELLENCE AND SERVICE</p>
+          <p className="mb-4">To be a leading Global University and provide value-based contemporary education with thrust on innovation, research and productivity with a blend of modernity with tradition.</p>
 
           <h3 className="text-xl font-bold mb-2">Mission</h3>
           <p>
-            AMITY (Deemed to be University) is a nurturing ground for an
-            individual's holistic development to make effective contribution to
-            society in a dynamic environment.
+            To prepare future Global Leaders by providing an environment of excellence in academics, research, technology driven learning, cross cultural exposure, holistic development and also enabling them with a commitment to societal & environmental responsibility.
           </p>
         </div>
 
