@@ -14,10 +14,10 @@ const Footer = () => {
           <p className="mt-2">
             Email:{" "}
             <a
-              href="mailto:iciset@amity.edu"
+              href="mailto:iset@amity.jpr.edu"
               className="text-cyan-400 hover:underline"
             >
-              iciset    @amity.edu
+              iset@amity.jpr.edu
             </a>
           </p>
           <a
