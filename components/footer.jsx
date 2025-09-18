@@ -37,11 +37,11 @@ const Footer = () => {
         {/* Middle Section */}
         <div>
           <h3 className="text-xl font-bold mb-2">Vision</h3>
-          <p className="mb-4">To be a leading Global University and provide value-based contemporary education with thrust on innovation, research and productivity with a blend of modernity with tradition.</p>
+          <p className="mb-4">To be a leading global university fostering innovation, research, and value-based education.</p>
 
           <h3 className="text-xl font-bold mb-2">Mission</h3>
           <p>
-            To prepare future Global Leaders by providing an environment of excellence in academics, research, technology driven learning, cross cultural exposure, holistic development and also enabling them with a commitment to societal & environmental responsibility.
+            To nurture future leaders through excellence in academics, research, technology, holistic development, and social responsibility.
           </p>
         </div>
 

@@ -22,13 +22,13 @@ const Accordion = ({ data, title = "Frequently Asked Questions" }) => {
               onClick={() => toggleFAQ(index)}
             >
               {faq.question}
-              <span
+              {/* <span
                 className={`transform transition-transform duration-300 text-xl font-bold ${
                   openIndex === index ? "rotate-180" : ""
                 }`}
               >
                 +
-              </span>
+              </span> */}
             </button>
 
             <div

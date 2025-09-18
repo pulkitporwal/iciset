@@ -7,7 +7,7 @@ const ImportantDates = () => {
     { label: "Acceptance Notification", date: "15th February, 2026", highlight: false },
     { label: "Last Date for Camera Ready", date: "10th March, 2026", highlight: false },
     { label: "Last Date of Registration", date: "10th March, 2026", highlight: true },
-    { label: "Conference Dates", date: "23rd - 24th April, 2026", highlight: false },
+    { label: "Conference Dates", date: "20th-21th April, 2026", highlight: false },
   ];
 
 
