@@ -122,12 +122,12 @@ Intelligent Systems and Emerging Technologies (ISET-2026) invites
           forwarded for publication. Presenters will receive a presentation certificate.
         </Paragraph>
 
-        <SubHeading>Publication</SubHeading>
+        {/* <SubHeading>Publication</SubHeading>
         <Paragraph>
           All accepted and presented papers will be submitted to a SCOPUS-indexed publication
           partner. Proofs will be sent to the corresponding author, so ensure email addresses are
           correct. Keep checking the conference website for updates.
-        </Paragraph>
+        </Paragraph> */}
       </TextSection>
     </div>
   )
