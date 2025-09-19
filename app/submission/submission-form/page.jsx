@@ -12,7 +12,7 @@ const SubmissionForm = () => {
             <p className='text-lg font-bold'>NOTE:   Acceptance of a full-length submission is strictly based on the reviewers' comments.</p>
 
             <p>All submissions need to be submitted through the CMT using the link:</p>
-            <a className='text-blue-500' href="https://cmt3.research.microsoft.com/ICSCPS2026">https://cmt3.research.microsoft.com/ICSCPS2026.</a>
+            <a className='text-blue-500' href="https://cmt3.research.microsoft.com/ISET2026">https://cmt3.research.microsoft.com/ISET2026.</a>
 
             <p>At least one of the authors of an accepted paper needs to register for the conference and to present the paper(s) through an offline mode presentation.</p>
             <p>All manuscripts should be prepared in the following Springer's Book Chapter template.</p>

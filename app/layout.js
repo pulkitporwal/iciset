@@ -85,9 +85,9 @@ export default function RootLayout({ children }) {
         className={`${montserrat.className} w-full min-h-screen antialiased overflow-x-hidden`}
         cz-shortcut-listen="true"
       >
-        <Navbar />
-        <InfiniteMarquee />
         <Hero />
+        <InfiniteMarquee />
+        <Navbar />
         <main>
           {children}
         </main>

@@ -31,16 +31,18 @@ const Navbar = () => {
         { name: "Important Dates", link: "/submission/important-dates" },
         { name: "Publication", link: "/submission/publication" },
         { name: "Registration", link: "/submission/registration" },
-        { name: "Submission Form", link: "/submission/submission-form" },]
+        { name: "Submission Form", link: "/submission/submission-form" },
+      ],
     },
-    { name: "Call For Sponsors", link: "call-for-sponsors" },
+    { name: "Call For Sponsors", link: "/call-for-sponsors" },
     {
-      name: "Venue", submenu: true,
+      name: "Venue",
+      submenu: true,
       subLinks: [
         { name: "Conference Venue", link: "/venue/conference" },
         { name: "Transportation", link: "/venue/transportation" },
         { name: "VISA", link: "/venue/visa" },
-      ]
+      ],
     },
     { name: "Contact Us", link: "/contact" },
   ];
@@ -59,16 +61,7 @@ const Navbar = () => {
 
   return (
     <header className="w-full bg-white shadow-md z-50 sticky top-0">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
-        {/* Logo */}
-        <Link href="/" onClick={closeMobileMenu}>
-          <img
-            src="/amity-logo.png"
-            alt="Amity University Rajasthan"
-            className="w-[150px]"
-          />
-        </Link>
-
+      <div className="max-w-7xl mx-auto flex items-center justify-between md:justify-center px-6 py-3">
         {/* Desktop Menu */}
         <nav className="hidden md:flex gap-6 items-center text-sm">
           {navLinks.map((item, i) =>
@@ -182,4 +175,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar 
+export default Navbar;

@@ -18,7 +18,7 @@ const VisaInformation = () => {
             </a>
             . Please email{" "}
             <a
-              href="mailto:icscps.ncr@christuniversity.in"
+              href="mailto:ISET.ncr@christuniversity.in"
               className="text-blue-600 hover:underline"
             >
               iset@amity.edu

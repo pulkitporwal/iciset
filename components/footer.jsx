@@ -9,37 +9,36 @@ const Footer = () => {
           <h2 className="text-xl font-bold mb-2">AMITY UNIVERSITY RAJASTHAN</h2>
           <p>SP-1 Kant Kalwar, NH11C, RIICO Industrial Area</p>
           <p>Jaipur, Rajasthan - 303002</p>
-          <p>Telephone: 0123456789</p>
-          <p>Tel: 1800-111-1111</p>
+          <p>Tel: 01426-405678</p>
           <p className="mt-2">
             Email:{" "}
             <a
               href="mailto:iset@amity.jpr.edu"
               className="text-cyan-400 hover:underline"
             >
-              iset@amity.jpr.edu
+              iset@jpr.amity.edu
             </a>
           </p>
           <a
-            href="http://www.amity.edu"
+            href="https://www.amity.edu/jaipur/"
             target="_blank"
             rel="noreferrer"
             className="text-cyan-400 hover:underline"
           >
-            http://www.amity.edu
+            https://www.amity.edu/jaipur/
           </a>
 
           <p className="mt-4 text-xs">
-            Copyright © AMITY (Deemed to be University)
+            Copyright © AMITY UNIVERSITY RAJASTHAN
           </p>
         </div>
 
         {/* Middle Section */}
         <div>
-          <h3 className="text-xl font-bold mb-2">Vision</h3>
+          <h3 className="text-xl font-bold mb-2 text-justify">Vision</h3>
           <p className="mb-4">To be a leading global university fostering innovation, research, and value-based education.</p>
 
-          <h3 className="text-xl font-bold mb-2">Mission</h3>
+          <h3 className="text-xl font-bold mb-2 text-justify">Mission</h3>
           <p>
             To nurture future leaders through excellence in academics, research, technology, holistic development, and social responsibility.
           </p>

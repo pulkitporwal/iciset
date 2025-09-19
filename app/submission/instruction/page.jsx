@@ -32,7 +32,8 @@ const Instruction = () => {
     <div className="px-4 py-6">
       <TextSection title="Instruction for Authors">
         <Paragraph>
-          International Conference on Smart Cyber Physical Systems (ICSCPS-2026) invites
+          International Conference on
+Intelligent Systems and Emerging Technologies (ISET-2026) invites
           original research contribution from different fields as mentioned in topics provided
           that the context of the work is clearly explained. Papers must be submitted on or before
           the last date of paper submission. After this deadline, you will not be able to register
@@ -43,7 +44,7 @@ const Instruction = () => {
         <Paragraph>
           All submissions will be handled electronically using Microsoft’s CMT platform. Authors
           are hereby instructed not to submit any paper via emails directly. By submitting a paper,
-          the authors agree to the policies of ICSCPS-2026. It is the primary author’s responsibility
+          the authors agree to the policies of ISET-2026. It is the primary author’s responsibility
           to add the details of all authors (e.g., co-authors) of the paper to the CMT portal so that
           essential updates about your papers can be sent to all authors. While submitting the paper,
           the corresponding author must include at least one primary area to which your paper belongs.
@@ -53,11 +54,11 @@ const Instruction = () => {
 
         <Paragraph>
           <b>Article Types:</b> Articles with novel research contribution on the theme of the conference should be
-          submitted to ICSCPS-2026. We do not encourage authors to submit Review/ Survey articles.
+          submitted to ISET-2026. We do not encourage authors to submit Review/ Survey articles.
         </Paragraph>
 
         <Paragraph>
-          <b>Language Style:</b> The default language style at ICSCPS-2026 is standard English only.
+          <b>Language Style:</b> The default language style at ISET-2026 is standard English only.
           Authors should submit manuscripts in English language only.
         </Paragraph>
 
@@ -103,7 +104,7 @@ const Instruction = () => {
 
         <SubHeading>Plagiarism</SubHeading>
         <Paragraph>
-          ICSCPS-2026 respects Intellectual Property Rights. Plagiarism will not be tolerated. Papers
+          ISET-2026 respects Intellectual Property Rights. Plagiarism will not be tolerated. Papers
           with more than 18% similarity will be rejected. For any single source, similarity must not
           exceed 2%.
         </Paragraph>

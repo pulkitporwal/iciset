@@ -2,7 +2,7 @@ import React from "react";
 
 const ImportantDates = () => {
   const dates = [
-    { label: "Call for Papers", date: "5th July, 2025", highlight: true },
+    { label: "Call for Papers", date: "30th September, 2025", highlight: true },
     { label: "Last Date (Paper Submission)", date: "15th January, 2026", highlight: true },
     { label: "Acceptance Notification", date: "15th February, 2026", highlight: false },
     { label: "Last Date for Camera Ready", date: "10th March, 2026", highlight: false },

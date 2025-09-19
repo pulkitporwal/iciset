@@ -24,17 +24,17 @@ const Registration = () => {
               <tr className="hover:bg-gray-50">
                 <td className="px-4 py-2 border font-medium">Industry person</td>
                 <td className="px-4 py-2 border">Rs. 8000/-</td>
-                <td className="px-4 py-2 border">US$ 140/-</td>
+                <td className="px-4 py-2 border">US$ 90/-</td>
               </tr>
               <tr className="hover:bg-gray-50">
                 <td className="px-4 py-2 border font-medium">Student (Full time)</td>
-                <td className="px-4 py-2 border">Rs. 8000/-</td>
-                <td className="px-4 py-2 border">US$ 140/-</td>
+                <td className="px-4 py-2 border">Rs. 6000/-</td>
+                <td className="px-4 py-2 border">US$ 70/-</td>
               </tr>
               <tr className="hover:bg-gray-50">
                 <td className="px-4 py-2 border font-medium">Attendees/Participating</td>
-                <td className="px-4 py-2 border">Rs. 8000/-</td>
-                <td className="px-4 py-2 border">US$ 140/-</td>
+                <td className="px-4 py-2 border">Rs. 2000/-</td>
+                <td className="px-4 py-2 border">US$ 25/-</td>
               </tr>
             </tbody>
             <caption className="caption-bottom text-gray-500 text-xs p-2">

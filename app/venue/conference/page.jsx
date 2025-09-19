@@ -8,7 +8,7 @@ const HighlightCard = ({ title, description, image, link }) => {
         <img
           src={image}
           alt={title}
-          className="w-[1300px] md:w-1/3 h-48 object-cover rounded"
+          className="w-[1300px] md:w-[200px] h-48 object-cover rounded"
         />
       )}
       <div className="flex flex-col justify-center">
@@ -30,7 +30,7 @@ const HighlightCard = ({ title, description, image, link }) => {
 }
 
 const ConferenceVenue = () => {
-  const highlights = [
+    const highlights = [
     {
       title: "City Palace",
       description:
@@ -58,6 +58,20 @@ const ConferenceVenue = () => {
         "Constructed in 1734, Jantar Mantar is an astronomical observatory housing 19 instruments. The Samrat Yantra, the world’s largest sundial, still tells accurate time. It is a UNESCO World Heritage Site reflecting India’s scientific heritage.",
       image: "https://www.andbeyond.com/wp-content/uploads/sites/5/jamtar-mantar-jaipur.jpg",
       link: "https://www.jantarmantar.org",
+    },
+    {
+      title: "Bhamashah Techno Hub",
+      description:
+        "Bhamashah Techno Hub is India’s largest startup incubation center, fostering innovation and entrepreneurship. Spread across 100,000 sq. ft., it provides co-working spaces, mentorship, funding access, and cutting-edge facilities for startups in technology and allied sectors.",
+      image: "https://nayarajasthan.wordpress.com/wp-content/uploads/2018/09/bth_1.png?w=640",
+      link: "https://startup.rajasthan.gov.in/content/raj/startup/en/bhamashah-techno-hub.html",
+    },
+    {
+      title: "Rajasthan Industrial Training Centre (RIC)",
+      description:
+        "RIC focuses on skill development and industrial training, preparing students for the future of technology and industry. It offers hands-on learning in mechanical, electrical, and digital domains, playing a crucial role in Rajasthan’s technical workforce development.",
+      image: "https://arpramodjain.com/wp-content/uploads/2019/12/DJI_0088-3-scaled.jpg",
+      link: "https://ricjaipur.org",
     },
     {
       title: "Nahargarh Fort",
@@ -90,6 +104,7 @@ const ConferenceVenue = () => {
       image: "https://content-tourist.rajasthan.gov.in/uploads/albert_hall_museum_jaipur_entry_fee_timings_holidays_reviews_header_219f4b832f.jpg",
     },
   ]
+
 
   return (
     <div>
