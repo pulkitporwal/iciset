@@ -38,11 +38,11 @@ export default function Home() {
           <p>
             Amity University Rajasthan Jaipur has been established by the Ritnand Balved Education Foundation (RBEF) New Delhi, which is a society registered under the Societies Registration Act, 1860 Government Recognised. It has been set up under the Amity University Rajasthan Act 2008, notified by Government Notification No F.2(10 ) vidhi/2.
           </p>
-          <p>The University imparts modern, practical and research-based courses whose goal is to make the students industry-ready. Case studies, industry projects, presentations, research work and role-play form an integral part of a student's tenure at Amity.</p>
+          <p>The University imparts modern, practical and research-based courses whose goal is to make the students industry-ready. Case studies, industry projects, presentations, research work and role-play form an integral part of a student&apos; s tenure at Amity.</p>
           <p>The University has a beautiful tree-lined campus spread over 152 acres of land on the Delhi-Jaipur Highway. The campus includes a rainwater harvesting lake with running fountains, a Neem forest, and an amphitheatre that can seat 1,500 spectators.</p>
           <p>The Amity University Jaipur is considered a pioneer in the field of higher learning for introducing the path-breaking Flexi-credit course. Under this course, the students choose the subjects they want to study, and at a time of their convenience.</p>
           <p>
-            The University also has a unique mentor-mentee system, where every student is guided by a Faculty member. The Faculty member not only addresses the academic problems faced by students but also counsel's students on personal issues.
+            The University also has a unique mentor-mentee system, where every student is guided by a Faculty member. The Faculty member not only addresses the academic problems faced by students but also counsel &apos; s students on personal issues.
             Personality Enhancement is greatly stressed at Amity and all students undergo special classes and workshops for this, whilst innovative activities like military training camps ensure that Amitians become true leaders. The academic blocks have large and spacious air-conditioned classrooms, lecture theaters and state-of the-art labs. There are separate hostels for boys and girls, and a Student Resource Centre that has restaurants, gym, library, dance room, billiards and TT room. The University provides a range of outdoor activities that include horse riding, golfing and trekking.
           </p>
         </TextSection>
