@@ -14,25 +14,33 @@ const ContactUs = () => {
                     using the form below, or contact us directly via the provided details.
                 </p>
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-6">
-                    {/* Contact Details */}
-                    <div className="bg-gray-50 p-6 rounded-2xl shadow space-y-4">
+                <div className="flex justify-center items-center flex-col gap-8 mt-6">
+                    <div className="p-6 rounded-2xl shadow space-y-4">
                         <h3 className="text-lg font-semibold">Contact Details</h3>
-                        <p>
-                            <span className="font-medium">Email:</span>{" "}
-                            conference@iset2026.org
-                        </p>
-                        <p>
-                            <span className="font-medium">Phone:</span> +91-123-456-7890
-                        </p>
-                        <p>
-                            <span className="font-medium">Address:</span> Amity University
-                            Rajasthan, Jaipur, India
-                        </p>
-                    </div>
+                        <div class="grid md:grid-cols-2 gap-6 p-6 bg-gray-50 rounded-2xl shadow-lg">
+                    
+                            <div class="p-5 bg-white rounded-xl shadow-md hover:shadow-lg transition">
+                                <h2 class="text-xl font-semibold text-[#005B96] mb-2">
+                                    Amity University Jaipur Campus
+                                </h2>
+                                <p class="text-gray-600 leading-relaxed">
+                                    SP-1, Kant Kalwar, RIICO Industrial Area, NH-11C, Jaipur, Rajasthan <br />
+                                    <span class="font-medium text-gray-800">Tel:</span> 01426-405678
+                                    <span class="text-sm text-gray-500">(University Board Number - For general queries only)</span>
+                                </p>
+                            </div>
+                            <div class="p-5 bg-white rounded-xl shadow-md hover:shadow-lg transition">
+                                <h2 class="text-xl font-semibold text-[#005B96] mb-2">
+                                    Amity University Jaipur City Office
+                                </h2>
+                                <p class="text-gray-600 leading-relaxed">
+                                    Amity House, C - 119, Lal Kothi Scheme, Behind Vidhan Sabha, Jaipur - 302 015 (Rajasthan) <br />
+                                    <span class="font-medium text-gray-800">Tel:</span> 0141-4735000, 2744350
+                                </p>
+                            </div>
+                        </div>
 
-                    {/* Contact Form */}
-                    <form
+<form
                         onSubmit={handleSubmit}
                         className="space-y-4 bg-gray-50 p-6 rounded-2xl shadow"
                     >
@@ -104,6 +112,8 @@ const ContactUs = () => {
                             </p>
                         )}
                     </form>
+                    </div>
+
                 </div>
             </TextSection>
         </div>
