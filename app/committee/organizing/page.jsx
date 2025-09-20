@@ -8,262 +8,233 @@ export const metadata = {
 
 const Committee = () => {
     const groups = [
-        {
-            group: "Chief Patreon",
-            members: [
-                {
-                    name: "Mohd Shahid Husain",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "University of Technology and Applied Sciences, Ibri, Sultanate of Oman",
-                },
-            ]
-        },
-        {
-            group: "Patrons",
-            members: [
-                {
-                    name: "Chirag Patel",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Charotar University of Science and Technology (CHARUSAT) University, Gujarat, India",
-                },
-                {
-                    name: "Y. Justin Dhas",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "SRM Easwari Engineering College, India",
-                },
-            ]
-        },
-        {
-            group: "General Chairs",
-            members: [
-                {
-                    name: "Arun Solanki",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Gautam Buddha University, Greater Noida, India",
-                },
-                {
-                    name: "Deepak Sinwar",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Manipal University Jaipur, India",
-                },
-                {
-                    name: "Vinod Gill",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Govt. College Nalwa (Hisar), Haryana, India",
-                },
-            ]
-        },
-        {
-            group: "Conference Chairs",
-            members: [
-                {
-                    name: "Gaurav Purohit",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "CSIR-Central Electronics Engineering Research Institute (CSIR-CEERI), Pilani, India",
-                },
-                {
-                    name: "Ekata Gupta",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Guru Nanak Institute of Management, Delhi NCR, India",
-                },
-                {
-                    name: "Deepa Kharb",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Indian Law Institute, New Delhi, India",
-                },
-                {
-                    name: "Ekbal Rashid",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "RTC Institute of Technology, India",
-                },
-            ]
-        },
-        {
-            group: "Program Chairs",
-            members: [
-                {
-                    name: "Ravi M Yadahalli",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Methodist College of Engineering and Technology, Hyderabad, India",
-                },
-                {
-                    name: "Nahid Fatima",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Prince Sultan University, KSA",
-                },
-            ]
-        },
-        {
-            group: "Publication Committee",
-            members: [
-                {
-                    name: "Nahid Fatima",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Prince Sultan University, KSA",
-                },
-                {
-                    name: "Ravi M Yadahalli",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Methodist College of Engineering and Technology, Hyderabad, India",
-                },
-            ]
-        },
-        {
-            group: "Finance Committee",
-            members: [
-                {
-                    name: "Leo John Baptist",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Botho University, Gaborone, Botswana",
-                },
-                {
-                    name: "Ashraful Islam",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Independent University Bangladesh, Dhaka, Bangladesh",
-                },
-            ]
-        },
-        {
-            group: "Collaboration Committee",
-            members: [
-                {
-                    name: "Leo John Baptist",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Botho University, Gaborone, Botswana",
-                },
-                {
-                    name: "Ashraful Islam",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Independent University Bangladesh, Dhaka, Bangladesh",
-                },
-            ]
-        },
-        {
-            group: "Conference Proceedings",
-            members: [
-                {
-                    name: "Leo John Baptist",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Botho University, Gaborone, Botswana",
-                },
-                {
-                    name: "Ashraful Islam",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Independent University Bangladesh, Dhaka, Bangladesh",
-                },
-            ]
-        },
-        {
-            group: "Publicity Committee",
-            members: [
-                {
-                    name: "Leo John Baptist",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Botho University, Gaborone, Botswana",
-                },
-                {
-                    name: "Ashraful Islam",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Independent University Bangladesh, Dhaka, Bangladesh",
-                },
-            ]
-        },
-        {
-            group: "Hospitality Committee",
-            members: [
-                {
-                    name: "Leo John Baptist",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Botho University, Gaborone, Botswana",
-                },
-                {
-                    name: "Ashraful Islam",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Independent University Bangladesh, Dhaka, Bangladesh",
-                },
-            ]
-        },
-        {
-            group: "IT Support Committee",
-            members: [
-                {
-                    name: "Leo John Baptist",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Botho University, Gaborone, Botswana",
-                },
-                {
-                    name: "Ashraful Islam",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Independent University Bangladesh, Dhaka, Bangladesh",
-                },
-            ]
-        },
-        {
-            group: "Registration and Attendee Committee",
-            members: [
-                {
-                    name: "Leo John Baptist",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Botho University, Gaborone, Botswana",
-                },
-                {
-                    name: "Ashraful Islam",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Independent University Bangladesh, Dhaka, Bangladesh",
-                },
-            ]
-        },
-        {
-            group: "Website Committee",
-            members: [
-                {
-                    name: "Leo John Baptist",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Botho University, Gaborone, Botswana",
-                },
-                {
-                    name: "Ashraful Islam",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Independent University Bangladesh, Dhaka, Bangladesh",
-                },
-            ]
-        },
-        {
-            group: "Sponsors Committee",
-            members: [
-                {
-                    name: "Leo John Baptist",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Botho University, Gaborone, Botswana",
-                },
-                {
-                    name: "Ashraful Islam",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Independent University Bangladesh, Dhaka, Bangladesh",
-                },
-            ]
-        },
-        {
-            group: "Stage Management and Student Discipline Committee",
-            members: [
-                {
-                    name: "Leo John Baptist",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Botho University, Gaborone, Botswana",
-                },
-                {
-                    name: "Ashraful Islam",
-                    image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-                    affiliation: "Independent University Bangladesh, Dhaka, Bangladesh",
-                },
-            ]
-        },
+  {
+    group: "Chief Patrons",
+    members: [
+      {
+        name: "Dr. Ashok Chauhan",
+        image: "/organizing-committee/ashok-chauhan.jpg",
+        affiliation: "Founder President, Amity Group"
+      },
+      {
+        name: "Dr. Aseem Chauhan",
+        image: "/organizing-committee/aseem-chauhan.webp",
+        affiliation: "Chancellor, Amity University Rajasthan"
+      }
+    ]
+  },
+  {
+    group: "Patrons",
+    members: [
+      {
+        name: "Prof (Dr.) Amit Jain",
+        image: "/organizing-committee/amit-jain.jpg",
+        affiliation: "President/Vice Chancellor, Amity University Rajasthan"
+      },
+      {
+        name: "Prof (Dr.) G K Aseri",
+        image: "/organizing-committee/gk-aseri.jpeg",
+        affiliation: "Pro President/Pro Vice Chancellor, Amity University Rajasthan"
+      }
+    ]
+  },
+  {
+    group: "General Chairs",
+    members: [
+      {
+        name: "Prof. Emilia Balas Valentina",
+        image: "/organizing-committee/emilia-balas.jpg",
+        affiliation: "Professor, Academy of Romanian Scientists, Romania"
+      },
+      {
+        name: "Prof. Sanjay Misra",
+        image: "/organizing-committee/sanjay-misra.jpeg",
+        affiliation: "Department of Applied Data Science, Institute For Energy Technology, Halden, Norway"
+      },
+      {
+        name: "Prof. (Dr.) P. K. Kapur",
+        image: "/organizing-committee/pk-kanpur.jpeg",
+        affiliation: "Director, ACIDR, Amity University Uttar Pradesh"
+      },
+      {
+        name: "Dr. Sameer Rohadia",
+        image: "/organizing-committee/sameer-rohadia.jpeg",
+        affiliation: "Specialist Business Intelligence & Data Warehouse, Hannover, Germany"
+      }
+    ]
+  },
+  {
+    group: "Conference Chairs",
+    members: [
+      {
+        name: "Prof. Bhupesh Kumar Singh",
+        image: "/organizing-committee/bupesh-singh.jpeg",
+        affiliation: "Dy. Director, Amity School of Engineering and Technology, Amity University Rajasthan"
+      },
+      {
+        name: "Prof. Ramesh Chandra Poonia",
+        image: "/organizing-committee/ramesh-chandra-poonia.jpeg",
+        affiliation: "CHRIST (Deemed to be University), Delhi-NCR, Ghaziabad, Uttar Pradesh"
+      }
+    ]
+  },
+  {
+    group: "Program Chairs",
+    members: [
+      {
+        name: "Dr. Chitresh Banerjee",
+        image: "/organizing-committee/chitresh-banerjee.png",
+        affiliation: "Associate Professor, AIIT, Amity University Rajasthan"
+      },
+      {
+        name: "Dr. Yudhveer Singh",
+        image: "/organizing-committee/yudhveer-singh.png",
+        affiliation: "Associate Professor, AIIT, Amity University Rajasthan"
+      }
+    ]
+  },
+  {
+    group: "Publication Committee",
+    members: [
+      {
+        name: "Prof. Ramesh Chandra Poonia",
+        image: "/organizing-committee/ramesh-chandra-poonia.jpeg",
+        affiliation: "CHRIST (Deemed to be University), Delhi-NCR, Ghaziabad, Uttar Pradesh"
+      },
+      {
+        name: "Prof. (Dr.) Manju Kaushik",
+        image: "/organizing-committee/manju-kaushik.webp",
+        affiliation: "AIIT, Amity University Rajasthan"
+      }
+    ]
+  },
+  {
+    group: "Finance Committee",
+    members: [
+      {
+        name: "Prof. (Dr.) Manju Kaushik",
+        image: "/organizing-committee/manju-kaushik.webp",
+        affiliation: "AIIT, Amity University Rajasthan"
+      },
+      {
+        name: "Mr. Manish Sharma",
+        image: `/organizing-committee/manish-sharma.png`,
+        affiliation: "AGM, Accounts, Amity University Rajasthan"
+      },
+      {
+        name: "Mr. Raj Kumar",
+        image: `/organizing-committee/raj-kumar.jpeg`,
+        affiliation: "Assistant Manager, Accounts, Amity University Rajasthan"
+      },
+      {
+        name: "Mr. Rohit Kushwah",
+        image: `/organizing-committee/rohit-kushwaha.jpeg`,
+        affiliation: "Office Assistant, AII, Amity University Rajasthan"
+      }
+    ]
+  },
+  {
+    group: "Collaboration Committee",
+    members: [
+      {
+        name: "Prof. (Dr.) Manju Kaushik",
+        image: "/organizing-committee/manju-kaushik.webp",
+        affiliation: "AIIT, Amity University Rajasthan"
+      }
+    ]
+  },
+  {
+    group: "Conference Proceedings",
+    members: [
+      {
+        name: "Prof. Ramesh Chandra Poonia",
+        image: "/organizing-committee/ramesh-chandra-poonia.jpeg",
+        affiliation: "CHRIST (Deemed to be University), Delhi-NCR, Ghaziabad, Uttar Pradesh"
+      }
+    ]
+  },
+  {
+    group: "Publicity Committee",
+    members: [
+      {
+        name: "Dr. Tanushree Mukherjee",
+        image: `/organizing-committee/tanushri-mukherjee.jpg`,
+        affiliation: "ASCO, Amity University Rajasthan"
+      }
+    ]
+  },
+  {
+    group: "Hospitality Committee",
+    members: [
+      {
+        name: "Dr. Yudhveer Singh",
+        image: "/organizing-committee/yudhveer-singh.png",
+        affiliation: "AIIT, Amity University Rajasthan"
+      }
+    ]
+  },
+  {
+    group: "IT Support Committee",
+    members: [
+      {
+        name: "Mr. R. K Pachauri",
+        image: `/organizing-committee/rk-pachauri.jpeg`,
+        affiliation: "IT, Amity University Rajasthan"
+      }
+    ]
+  },
+  {
+    group: "Registration and Attendee Committee",
+    members: [
+      {
+        name: "Dr. Yudhveer Singh",
+        image: "/organizing-committee/yudhveer-singh.png",
+        affiliation: "AIIT, Amity University Rajasthan"
+      },
+      {
+        name: "Dr. Abhineet Saxena",
+        image: `/organizing-committee/abhineet-saxena.jpg`,
+        affiliation: "ABS, Amity University Rajasthan"
+      }
+    ]
+  },
+  {
+    group: "Website Committee",
+    members: [
+      {
+        name: "Dr. Chitresh Banerjee",
+        image: "/organizing-committee/chitresh-banerjee.png",
+        affiliation: "AIIT, Amity University Rajasthan"
+      }
+    ]
+  },
+  {
+    group: "Sponsors Committee",
+    members: [
+      {
+        name: "Prof. (Dr.) Manju Kaushik",
+        image: "/organizing-committee/manju-kaushik.webp",
+        affiliation: "AIIT, Amity University Rajasthan"
+      }
+    ]
+  },
+  {
+    group: "Stage Management and Student Discipline Committee",
+    members: [
+      {
+        name: "Prof. Parul Mishra",
+        image: `/organizing-committee/parul-mishra.jpeg`,
+        affiliation: "ASL, Amity University Rajasthan"
+      },
+      {
+        name: "Dr. Sachin Bansal",
+        image: `/organizing-committee/sachin-bansal.jpeg`,
+        affiliation: "ASET, Amity University Rajasthan"
+      }
+    ]
+  }
+];
 
-
-
-
-
-    ];
 
     return (
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-10 py-8">
