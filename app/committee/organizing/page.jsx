@@ -7,233 +7,240 @@ export const metadata = {
 };
 
 const Committee = () => {
-    const groups = [
-  {
-    group: "Chief Patrons",
-    members: [
-      {
-        name: "Dr. Ashok Chauhan",
-        image: "/organizing-committee/ashok-chauhan.jpg",
-        affiliation: "Founder President, Amity Group"
-      },
-      {
-        name: "Dr. Aseem Chauhan",
-        image: "/organizing-committee/aseem-chauhan.webp",
-        affiliation: "Chancellor, Amity University Rajasthan"
-      }
-    ]
-  },
-  {
-    group: "Patrons",
-    members: [
-      {
-        name: "Prof (Dr.) Amit Jain",
-        image: "/organizing-committee/amit-jain.jpg",
-        affiliation: "President/Vice Chancellor, Amity University Rajasthan"
-      },
-      {
-        name: "Prof (Dr.) G K Aseri",
-        image: "/organizing-committee/gk-aseri.jpeg",
-        affiliation: "Pro President/Pro Vice Chancellor, Amity University Rajasthan"
-      }
-    ]
-  },
-  {
-    group: "General Chairs",
-    members: [
-      {
-        name: "Prof. Emilia Balas Valentina",
-        image: "/organizing-committee/emilia-balas.jpg",
-        affiliation: "Professor, Academy of Romanian Scientists, Romania"
-      },
-      {
-        name: "Prof. Sanjay Misra",
-        image: "/organizing-committee/sanjay-misra.jpeg",
-        affiliation: "Department of Applied Data Science, Institute For Energy Technology, Halden, Norway"
-      },
-      {
-        name: "Prof. (Dr.) P. K. Kapur",
-        image: "/organizing-committee/pk-kanpur.jpeg",
-        affiliation: "Director, ACIDR, Amity University Uttar Pradesh"
-      },
-      {
-        name: "Dr. Sameer Rohadia",
-        image: "/organizing-committee/sameer-rohadia.jpeg",
-        affiliation: "Specialist Business Intelligence & Data Warehouse, Hannover, Germany"
-      }
-    ]
-  },
-  {
-    group: "Conference Chairs",
-    members: [
-      {
-        name: "Prof. Bhupesh Kumar Singh",
-        image: "/organizing-committee/bupesh-singh.jpeg",
-        affiliation: "Dy. Director, Amity School of Engineering and Technology, Amity University Rajasthan"
-      },
-      {
-        name: "Prof. Ramesh Chandra Poonia",
-        image: "/organizing-committee/ramesh-chandra-poonia.jpeg",
-        affiliation: "CHRIST (Deemed to be University), Delhi-NCR, Ghaziabad, Uttar Pradesh"
-      }
-    ]
-  },
-  {
-    group: "Program Chairs",
-    members: [
-      {
-        name: "Dr. Chitresh Banerjee",
-        image: "/organizing-committee/chitresh-banerjee.png",
-        affiliation: "Associate Professor, AIIT, Amity University Rajasthan"
-      },
-      {
-        name: "Dr. Yudhveer Singh",
-        image: "/organizing-committee/yudhveer-singh.png",
-        affiliation: "Associate Professor, AIIT, Amity University Rajasthan"
-      }
-    ]
-  },
-  {
-    group: "Publication Committee",
-    members: [
-      {
-        name: "Prof. Ramesh Chandra Poonia",
-        image: "/organizing-committee/ramesh-chandra-poonia.jpeg",
-        affiliation: "CHRIST (Deemed to be University), Delhi-NCR, Ghaziabad, Uttar Pradesh"
-      },
-      {
-        name: "Prof. (Dr.) Manju Kaushik",
-        image: "/organizing-committee/manju-kaushik.webp",
-        affiliation: "AIIT, Amity University Rajasthan"
-      }
-    ]
-  },
-  {
-    group: "Finance Committee",
-    members: [
-      {
-        name: "Prof. (Dr.) Manju Kaushik",
-        image: "/organizing-committee/manju-kaushik.webp",
-        affiliation: "AIIT, Amity University Rajasthan"
-      },
-      {
-        name: "Mr. Manish Sharma",
-        image: `/organizing-committee/manish-sharma.png`,
-        affiliation: "AGM, Accounts, Amity University Rajasthan"
-      },
-      {
-        name: "Mr. Raj Kumar",
-        image: `/organizing-committee/raj-kumar.jpeg`,
-        affiliation: "Assistant Manager, Accounts, Amity University Rajasthan"
-      },
-      {
-        name: "Mr. Rohit Kushwah",
-        image: `/organizing-committee/rohit-kushwaha.jpeg`,
-        affiliation: "Office Assistant, AII, Amity University Rajasthan"
-      }
-    ]
-  },
-  {
-    group: "Collaboration Committee",
-    members: [
-      {
-        name: "Prof. (Dr.) Manju Kaushik",
-        image: "/organizing-committee/manju-kaushik.webp",
-        affiliation: "AIIT, Amity University Rajasthan"
-      }
-    ]
-  },
-  {
-    group: "Conference Proceedings",
-    members: [
-      {
-        name: "Prof. Ramesh Chandra Poonia",
-        image: "/organizing-committee/ramesh-chandra-poonia.jpeg",
-        affiliation: "CHRIST (Deemed to be University), Delhi-NCR, Ghaziabad, Uttar Pradesh"
-      }
-    ]
-  },
-  {
-    group: "Publicity Committee",
-    members: [
-      {
-        name: "Dr. Tanushree Mukherjee",
-        image: `/organizing-committee/tanushri-mukherjee.jpg`,
-        affiliation: "ASCO, Amity University Rajasthan"
-      }
-    ]
-  },
-  {
-    group: "Hospitality Committee",
-    members: [
-      {
-        name: "Dr. Yudhveer Singh",
-        image: "/organizing-committee/yudhveer-singh.png",
-        affiliation: "AIIT, Amity University Rajasthan"
-      }
-    ]
-  },
-  {
-    group: "IT Support Committee",
-    members: [
-      {
-        name: "Mr. R. K Pachauri",
-        image: `/organizing-committee/rk-pachauri.jpeg`,
-        affiliation: "IT, Amity University Rajasthan"
-      }
-    ]
-  },
-  {
-    group: "Registration and Attendee Committee",
-    members: [
-      {
-        name: "Dr. Yudhveer Singh",
-        image: "/organizing-committee/yudhveer-singh.png",
-        affiliation: "AIIT, Amity University Rajasthan"
-      },
-      {
-        name: "Dr. Abhineet Saxena",
-        image: `/organizing-committee/abhineet-saxena.jpg`,
-        affiliation: "ABS, Amity University Rajasthan"
-      }
-    ]
-  },
-  {
-    group: "Website Committee",
-    members: [
-      {
-        name: "Dr. Chitresh Banerjee",
-        image: "/organizing-committee/chitresh-banerjee.png",
-        affiliation: "AIIT, Amity University Rajasthan"
-      }
-    ]
-  },
-  {
-    group: "Sponsors Committee",
-    members: [
-      {
-        name: "Prof. (Dr.) Manju Kaushik",
-        image: "/organizing-committee/manju-kaushik.webp",
-        affiliation: "AIIT, Amity University Rajasthan"
-      }
-    ]
-  },
-  {
-    group: "Stage Management and Student Discipline Committee",
-    members: [
-      {
-        name: "Prof. Parul Mishra",
-        image: `/organizing-committee/parul-mishra.jpeg`,
-        affiliation: "ASL, Amity University Rajasthan"
-      },
-      {
-        name: "Dr. Sachin Bansal",
-        image: `/organizing-committee/sachin-bansal.jpeg`,
-        affiliation: "ASET, Amity University Rajasthan"
-      }
-    ]
-  }
-];
+  const groups = [
+    {
+      group: "Chief Patrons",
+      members: [
+        {
+          name: "Dr. Ashok Chauhan",
+          image: "/organizing-committee/ashok-chauhan.jpg",
+          affiliation: "Founder President, Amity Group"
+        },
+        {
+          name: "Dr. Aseem Chauhan",
+          image: "/organizing-committee/aseem-chauhan.webp",
+          affiliation: "Chancellor, Amity University Rajasthan"
+        }
+      ]
+    },
+    {
+      group: "Patrons",
+      members: [
+        {
+          name: "Prof (Dr.) Amit Jain",
+          image: "/organizing-committee/amit-jain.jpg",
+          affiliation: "President/Vice Chancellor, Amity University Rajasthan"
+        },
+        {
+          name: "Prof (Dr.) G K Aseri",
+          image: "/organizing-committee/gk-aseri.jpeg",
+          affiliation: "Pro President/Pro Vice Chancellor, Amity University Rajasthan"
+        }
+      ]
+    },
+    {
+      group: "Chief Advisors",
+      members: [
+        {
+          name: "Prof. S. L. Kothari",
+          image: "/organizing-committee/sl-kothari.jpeg",
+          affiliation: "Vice President - ASTIF"
+        },
+        {
+          name: "Prof. (Dr.) Kamal K Dwivedi",
+          image: "/organizing-committee/kamal-dwivedi.png",
+          affiliation: "Senior Vice-President, RBEF"
+        }
+      ]
+    },
+    {
+      group: "General Chairs",
+      members: [
+        {
+          name: "Prof. Emilia Balas Valentina",
+          image: "/organizing-committee/emilia-balas.jpg",
+          affiliation: "Professor, Academy of Romanian Scientists, Romania"
+        },
+        {
+          name: "Prof. Sanjay Misra",
+          image: "/organizing-committee/sanjay-misra.jpeg",
+          affiliation: "Sr. Scientist, Department of Applied Data Science, Institute For Energy Technology, Halden, Norway"
+        },
+        {
+          name: "Prof. (Dr.) P. K. Kapur",
+          image: "/organizing-committee/pk-kanpur.jpeg",
+          affiliation: "Director, ACIDR, Amity University Uttar Pradesh"
+        },
+        {
+          name: "Dr. Sameer Rohadia",
+          image: "/organizing-committee/sameer-rohadia.png",
+          affiliation: "Specialist Business Intelligence & Data Warehouse, Hannover, Germany"
+        }
+      ]
+    },
+    {
+      group: "Conference Chairs",
+      members: [
+        {
+          name: "Prof. Bhupesh Kumar Singh",
+          image: "/organizing-committee/bupesh-singh.jpeg",
+          affiliation: "Dy. Director, Amity School of Engineering and Technology, Amity University Rajasthan"
+        },
+        {
+          name: "Prof. Ramesh Chandra Poonia",
+          image: "/organizing-committee/ramesh-chandra-poonia.jpeg",
+          affiliation: "CHRIST (Deemed to be University), Delhi-NCR, Ghaziabad, Uttar Pradesh"
+        }
+      ]
+    },
+    {
+      group: "Organizing Chair & Convener",
+      members: [
+        {
+          name: "Prof. (Dr.) Manju Kaushik",
+          image: "/organizing-committee/manju-kaushik.webp",
+          affiliation: "Director, E-Cell & Centre of IoT, President – Institution’s Innovation Council, Amity University Rajasthan"
+        }
+      ]
+    },
+    {
+      group: "Program Chairs",
+      members: [
+        {
+          name: "Dr. Chitresh Banerjee",
+          image: "/organizing-committee/chitresh-banerjee.png",
+          affiliation: "Associate Professor, AIIT, Amity University Rajasthan"
+        },
+        {
+          name: "Dr. Yudhveer Singh",
+          image: "/organizing-committee/yudhveer-singh.png",
+          affiliation: "Associate Professor, AIIT, Amity University Rajasthan"
+        }
+      ]
+    },
+    {
+      group: "Sponsorship and Funding Committee (Academics & Government Sponsorship)",
+      members: [
+        {
+          name: "Prof. (Dr.) Manju Kaushik",
+          image: "/organizing-committee/manju-kaushik.webp",
+          affiliation: "AIIT, Amity University Rajasthan"
+        }
+      ]
+    },
+    {
+      group: "Publication Committee",
+      members: [
+        {
+          name: "Prof. Ramesh Chandra Poonia",
+          image: "/organizing-committee/ramesh-chandra-poonia.jpeg",
+          affiliation: "CHRIST (Deemed to be University), Delhi-NCR, Ghaziabad, Uttar Pradesh"
+        },
+        {
+          name: "Prof. (Dr.) Manju Kaushik",
+          image: "/organizing-committee/manju-kaushik.webp",
+          affiliation: "AIIT, Amity University Rajasthan"
+        }
+      ]
+    },
+    {
+      group: "Session Organising Committee",
+      members: [
+        { name: "Dr. Yudhveer Singh", image: "/organizing-committee/yudhveer-singh.png", affiliation: "AIIT, Amity University Rajasthan" },
+        { name: "Dr. Chitresh Banerjee", image: "/organizing-committee/chitresh-banerjee.png", affiliation: "AIIT, Amity University Rajasthan" },
+        { name: "Dr. Abhineet Saxena", image: "/organizing-committee/abhineet-saxena.jpg", affiliation: "ABS, Amity University Rajasthan" },
+        { name: "Dr. Honey Gocher", image: "/organizing-committee/honey-gocher.jpeg", affiliation: "AIIT, Amity University Rajasthan" }
+      ]
+    },
+    {
+      group: "Registration Committee",
+      members: [
+        { name: "Dr. Yudhveer Singh", image: "/organizing-committee/yudhveer-singh.png", affiliation: "AIIT, Amity University Rajasthan" },
+        { name: "Dr. Abhineet Saxena", image: "/organizing-committee/abhineet-saxena.jpg", affiliation: "ABS, Amity University Rajasthan" }
+      ]
+    },
+    {
+      group: "Certificate Distribution Committee",
+      members: [
+        { name: "Prof. (Dr.) Manju Kaushik", image: "/organizing-committee/manju-kaushik.webp", affiliation: "AIIT, Amity University Rajasthan" },
+        { name: "Dr. Yudhveer Singh", image: "/organizing-committee/yudhveer-singh.png", affiliation: "AIIT, Amity University Rajasthan" },
+        { name: "Mr. Rohit Kushwah", image: "/organizing-committee/rohit-kushwaha.jpeg", affiliation: "Office Assistant, AII, Amity University Rajasthan" }
+      ]
+    },
+    {
+      group: "Publicity & Promotion Committee",
+      members: [
+        { name: "Dr. Tanushree Mukherjee", image: "/organizing-committee/tanushri-mukherjee.jpg", affiliation: "ASCO, Amity University Rajasthan" },
+        { name: "Ar. Kristi Verma", image: "/organizing-committee/kristi-verma.jpeg", affiliation: "ASAP, Amity University Rajasthan" },
+        { name: "Mr. Niladri Ghosh", image: "/organizing-committee/nildari-gosh.jpeg", affiliation: "Social Media Officer, Amity University Rajasthan" }
+      ]
+    },
+    {
+      group: "Media Committee",
+      members: [
+        { name: "Dr. Pallavi Mishra", image: "/organizing-committee/pallavi-mishra.jpg", affiliation: "ASCO, Amity University Rajasthan" },
+        { name: "Mr. Tarun Batra", image: "https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png", affiliation: "Admission Counselor, Amity University Rajasthan" },
+        { name: "Mr. Niladri Ghosh", image: "/organizing-committee/nildari-gosh.jpeg", affiliation: "Social Media Officer, Amity University Rajasthan" },
+        { name: "ASCO Studio Team", image: "https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png", affiliation: "Amity University Rajasthan" }
+      ]
+    },
+    {
+      group: "Rapporteur Committee",
+      members: [
+        { name: "Dr. Yudhveer Singh", image: "/organizing-committee/yudhveer-singh.png", affiliation: "AIIT, Amity University Rajasthan" },
+        { name: "Dr. Abhineet Saxena", image: "/organizing-committee/abhineet-saxena.jpg", affiliation: "ABS, Amity University Rajasthan" },
+        { name: "Ar. Kristi Verma", image: "https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png", affiliation: "ASAP, Amity University Rajasthan" }
+      ]
+    },
+    {
+      group: "Delegates Committee",
+      members: [
+        { name: "Prof. (Dr.) Manju Kaushik", image: "/organizing-committee/manju-kaushik.webp", affiliation: "AIIT, Amity University Rajasthan" },
+        { name: "Mr. Ram Pratap Singh", image: "https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png", affiliation: "Admin, Amity University Rajasthan" },
+        { name: "Mr. Akash Das", image: "/organizing-committee/akash-das.jpeg", affiliation: "Admin, Amity University Rajasthan" }
+      ]
+    },
+    {
+      group: "Hospitality Committee",
+      members: [
+        { name: "Dr. Yudhveer Singh", image: "/organizing-committee/yudhveer-singh.png", affiliation: "AIIT, Amity University Rajasthan" },
+        { name: "Ms. Adity", image: "https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png", affiliation: "ASH, Amity University Rajasthan" },
+        { name: "Mr. Akash Das", image: "/organizing-committee/akash-das.jpeg", affiliation: "Admin, Amity University Rajasthan" }
+      ]
+    },
+    {
+      group: "Decoration Committee",
+      members: [
+        { name: "Mr. Kapil Dangi", image: "/organizing-committee/kapil-dangi.jpeg", affiliation: "ASLA/ASFA, Amity University Rajasthan" }
+      ]
+    },
+    {
+      group: "Stage Management, Decoration & Culture Committee",
+      members: [
+        { name: "Prof. Parul Mishra", image: "/organizing-committee/parul-mishra.jpeg", affiliation: "ASL, Amity University Rajasthan" },
+        { name: "Dr. Sachin Bansal", image: "/organizing-committee/sachin-bansal.jpeg", affiliation: "ASET, Amity University Rajasthan" },
+        { name: "Mr. Ravi Verma", image: "/organizing-committee/ravi-verma.jpeg", affiliation: "ASCENT, Amity University Rajasthan" },
+        { name: "Mr. Radhey Shyam", image: "/organizing-committee/radhey-shyam.jpeg", affiliation: "ASFA, Amity University Rajasthan" },
+        { name: "Mr. R. K Pachauri", image: "/organizing-committee/rk-pachauri.jpeg", affiliation: "IT, Amity University Rajasthan" }
+      ]
+    },
+    {
+      group: "IT Support Committee",
+      members: [
+        { name: "Mr. R. K Pachauri", image: "/organizing-committee/rk-pachauri.jpeg", affiliation: "IT, Amity University Rajasthan" }
+      ]
+    },
+    {
+      group: "Finance Committee",
+      members: [
+        { name: "Prof. (Dr.) Manju Kaushik", image: "/organizing-committee/manju-kaushik.webp", affiliation: "AIIT, Amity University Rajasthan" },
+        { name: "Mr. Manish Sharma", image: "/organizing-committee/manish-sharma.png", affiliation: "AGM, Accounts, Amity University Rajasthan" },
+        { name: "Mr. Raj Kumar", image: "/organizing-committee/raj-kumar.jpeg", affiliation: "Assistant Manager, Accounts, Amity University Rajasthan" },
+        { name: "Mr. Rohit Kushwah", image: "/organizing-committee/rohit-kushwaha.jpeg", affiliation: "Office Assistant, AII, Amity University Rajasthan" }
+      ]
+    }
+  ];
+  
 
 
     return (
