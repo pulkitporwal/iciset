@@ -9,74 +9,14 @@ export const metadata = {
 const Committee = () => {
   const members = [
     {
-      name: "Mohd Shahid Husain",
-      image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-      affiliation: "University of Technology and Applied Sciences, Ibri, Sultanate of Oman",
+      name: "Mr. Saurab Bagaria",
+      image: `/student-volunteer/saurab-bagaria.jpeg`,
+      affiliation: "General Secretary, Entrepreneurship Cell, Amity Innovation Incubator, Jaipur",
     },
     {
-      name: "Chirag Patel",
-      image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-      affiliation: "Charotar University of Science and Technology (CHARUSAT) University, Gujarat, India",
-    },
-    {
-      name: "Y. Justin Dhas",
-      image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-      affiliation: "SRM Easwari Engineering College, India",
-    },
-    {
-      name: "Arun Solanki",
-      image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-      affiliation: "Gautam Buddha University, Greater Noida, India",
-    },
-    {
-      name: "Deepak Sinwar",
-      image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-      affiliation: "Manipal University Jaipur, India",
-    },
-    {
-      name: "Vinod Gill",
-      image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-      affiliation: "Govt. College Nalwa (Hisar), Haryana, India",
-    },
-    {
-      name: "Gaurav Purohit",
-      image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-      affiliation: "CSIR-Central Electronics Engineering Research Institute (CSIR-CEERI), Pilani, India",
-    },
-    {
-      name: "Ekata Gupta",
-      image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-      affiliation: "Guru Nanak Institute of Management, Delhi NCR, India",
-    },
-    {
-      name: "Deepa Kharb",
-      image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-      affiliation: "Indian Law Institute, New Delhi, India",
-    },
-    {
-      name: "Ekbal Rashid",
-      image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-      affiliation: "RTC Institute of Technology, India",
-    },
-    {
-      name: "Ravi M Yadahalli",
-      image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-      affiliation: "Methodist College of Engineering and Technology, Hyderabad, India",
-    },
-    {
-      name: "Nahid Fatima",
-      image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-      affiliation: "Prince Sultan University, KSA",
-    },
-    {
-      name: "Leo John Baptist",
-      image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-      affiliation: "Botho University, Gaborone, Botswana",
-    },
-    {
-      name: "Ashraful Islam",
-      image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random() * 70) + 1}`,
-      affiliation: "Independent University Bangladesh, Dhaka, Bangladesh",
+      name: "Mr. Pulkit Porwal",
+      image: `/student-volunteer/pulkit-porwal.jpeg`,
+      affiliation: "Web Developer",
     },
   ];
 
