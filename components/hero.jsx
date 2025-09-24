@@ -17,7 +17,7 @@ const Hero = () => {
           </div>
             <h1 className='font-bold text-2xl md:text-3xl lg:text-3xl text-center text-[#005B96] px-10'>International Conference on <br />Intelligent Systems and Emerging Technologies - (ISET 2026)</h1>
             <span className='text-center text-lg md:text-xl text-[#005B96]'>Organised By</span>
-            <h2 className='font-semibold text-2xl md:text-2xl text-center text-[#005B96]'>IoT (Internet of Things) Center of Execellance - Amity University Rajasthan, Jaipur</h2>
+            <h2 className='font-semibold text-2xl md:text-2xl text-center text-[#005B96]'>IoT (Internet of Things) Center of Excellence - Amity University Rajasthan, Jaipur</h2>
             <h2 className='font-semibold text-xl md:text-2xl text-center text-[#005B96]'>20<sup>th</sup> & 21<sup>st</sup> April, 2026</h2>
         </div>
     </div>
