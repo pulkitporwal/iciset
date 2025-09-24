@@ -76,8 +76,10 @@ const Committee = () => {
         <div className="bg-[#005B96] text-white font-semibold px-4 py-2">
           International Advisory Board
         </div>
-
-        <ul>
+        <div className='flex items-center justify-center py-24 w-full text-center text-2xl text-[#005B96] font-bold'>
+          <p className='text-center'>To Be Anounced Soon</p>
+        </div>
+        {/* <ul>
           {members.map((m, idx) => (
             <li
               key={idx}
@@ -88,7 +90,7 @@ const Committee = () => {
               <span className="font-semibold">{m.name}</span>, {m.affiliation}
             </li>
           ))}
-        </ul>
+        </ul> */}
       </div>
     </div>
   );

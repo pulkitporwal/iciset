@@ -1,4 +1,5 @@
 import React from "react";
+import TextSection from "../../../components/text";
 
 export const metadata = {
   title: "National Advisory Board",
@@ -77,18 +78,20 @@ const Committee = () => {
           National Advisory Board
         </div>
 
-        <ul>
+          <div className='flex items-center justify-center py-24 w-full text-center text-2xl text-[#005B96] font-bold'>
+            <p className='text-center'>To Be Anounced Soon</p>
+          </div>
+        {/* <ul>
           {members.map((m, idx) => (
             <li
               key={idx}
-              className={`px-4 py-2 border-b border-neutral-400 last:border-b-0 ${
-                idx % 2 === 0 ? "bg-gray-50" : "bg-white"
-              }`}
+              className={`px-4 py-2 border-b border-neutral-400 last:border-b-0 ${idx % 2 === 0 ? "bg-gray-50" : "bg-white"
+                }`}
             >
               <span className="font-semibold">{m.name}</span>, {m.affiliation}
             </li>
           ))}
-        </ul>
+        </ul> */}
       </div>
     </div>
   );
