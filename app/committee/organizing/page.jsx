@@ -196,15 +196,16 @@ const Committee = () => {
       group: "Delegates Committee",
       members: [
         { name: "Prof. (Dr.) Manju Kaushik", image: "/organizing-committee/manju-kaushik.webp", affiliation: "AIIT, Amity University Rajasthan" },
-        { name: "Mr. Ram Pratap Singh", image: "https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png", affiliation: "Admin, Amity University Rajasthan" },
+        { name: "Mr. Ram Pratap Singh", image: "/organizing-committee/ram-pratap-singh.jpg", affiliation: "Admin, Amity University Rajasthan" },
         { name: "Mr. Akash Das", image: "/organizing-committee/akash-das.jpeg", affiliation: "Admin, Amity University Rajasthan" }
       ]
     },
     {
-      group: "Hospitality Committee",
+      group: "Hospitality/Transport Committee",
       members: [
         { name: "Dr. Yudhveer Singh", image: "/organizing-committee/yudhveer-singh.png", affiliation: "AIIT, Amity University Rajasthan" },
         { name: "Ms. Adity", image: "/organizing-committee/adity.jpg", affiliation: "ASH, Amity University Rajasthan" },
+        { name: "Mr. Ram Pratap Singh", image: "/organizing-committee/ram-pratap-singh.jpg", affiliation: "Admin, Amity University Rajasthan" },
         { name: "Mr. Akash Das", image: "/organizing-committee/akash-das.jpeg", affiliation: "Admin, Amity University Rajasthan" }
       ]
     },
