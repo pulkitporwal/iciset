@@ -16,7 +16,7 @@ const Committee = () => {
     {
       name: "Mr. Pulkit Porwal",
       image: `/student-volunteer/pulkit-porwal.jpeg`,
-      affiliation: "Web Developer",
+      affiliation: "Technical Volunteer",
     },
   ];
 
