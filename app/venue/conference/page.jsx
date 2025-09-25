@@ -67,9 +67,9 @@ const ConferenceVenue = () => {
       link: "https://startup.rajasthan.gov.in/content/raj/startup/en/bhamashah-techno-hub.html",
     },
     {
-      title: "Rajasthan Industrial Training Centre (RIC)",
+      title: "Rajasthan Internatinoal Centre (RIC)",
       description:
-        "RIC focuses on skill development and industrial training, preparing students for the future of technology and industry. It offers hands-on learning in mechanical, electrical, and digital domains, playing a crucial role in Rajasthan’s technical workforce development.",
+        "RIC focuses on skill development and internatinoal, preparing students for the future of technology and industry. It offers hands-on learning in mechanical, electrical, and digital domains, playing a crucial role in Rajasthan’s technical workforce development.",
       image: "https://arpramodjain.com/wp-content/uploads/2019/12/DJI_0088-3-scaled.jpg",
       link: "https://ricjaipur.org",
     },

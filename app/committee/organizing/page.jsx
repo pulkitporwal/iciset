@@ -164,7 +164,7 @@ const Committee = () => {
       members: [
         { name: "Prof. (Dr.) Manju Kaushik", image: "/organizing-committee/manju-kaushik.webp", affiliation: "AIIT, Amity University Rajasthan" },
         { name: "Dr. Yudhveer Singh", image: "/organizing-committee/yudhveer-singh.png", affiliation: "AIIT, Amity University Rajasthan" },
-        { name: "Mr. Rohit Kushwah", image: "/organizing-committee/rohit-kushwaha.jpeg", affiliation: "Office Assistant, AII, Amity University Rajasthan" }
+        { name: "Mr. Rohit Kushwah", image: "/organizing-committee/rohit-kushwaha.jpg", affiliation: "Office Assistant, AII, Amity University Rajasthan" }
       ]
     },
     {
@@ -179,7 +179,7 @@ const Committee = () => {
       group: "Media Committee",
       members: [
         { name: "Dr. Pallavi Mishra", image: "/organizing-committee/pallavi-mishra.jpg", affiliation: "ASCO, Amity University Rajasthan" },
-        { name: "Mr. Tarun Batra", image: "https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png", affiliation: "Admission Counselor, Amity University Rajasthan" },
+        { name: "Mr. Tarun Batra", image: "/organizing-committee/tarun-batra.jpg", affiliation: "Admission Counselor, Amity University Rajasthan" },
         { name: "Mr. Niladri Ghosh", image: "/organizing-committee/nildari-gosh.jpeg", affiliation: "Social Media Officer, Amity University Rajasthan" },
         { name: "ASCO Studio Team", image: "https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png", affiliation: "Amity University Rajasthan" }
       ]
@@ -189,7 +189,7 @@ const Committee = () => {
       members: [
         { name: "Dr. Yudhveer Singh", image: "/organizing-committee/yudhveer-singh.png", affiliation: "AIIT, Amity University Rajasthan" },
         { name: "Dr. Abhineet Saxena", image: "/organizing-committee/abhineet-saxena.jpg", affiliation: "ABS, Amity University Rajasthan" },
-        { name: "Ar. Kristi Verma", image: "https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png", affiliation: "ASAP, Amity University Rajasthan" }
+        { name: "Ar. Kristi Verma", image: "/organizing-committee/kristi-verma.jpeg", affiliation: "ASAP, Amity University Rajasthan" }
       ]
     },
     {
@@ -204,14 +204,8 @@ const Committee = () => {
       group: "Hospitality Committee",
       members: [
         { name: "Dr. Yudhveer Singh", image: "/organizing-committee/yudhveer-singh.png", affiliation: "AIIT, Amity University Rajasthan" },
-        { name: "Ms. Adity", image: "https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png", affiliation: "ASH, Amity University Rajasthan" },
+        { name: "Ms. Adity", image: "/organizing-committee/adity.jpg", affiliation: "ASH, Amity University Rajasthan" },
         { name: "Mr. Akash Das", image: "/organizing-committee/akash-das.jpeg", affiliation: "Admin, Amity University Rajasthan" }
-      ]
-    },
-    {
-      group: "Decoration Committee",
-      members: [
-        { name: "Mr. Kapil Dangi", image: "/organizing-committee/kapil-dangi.jpeg", affiliation: "ASLA/ASFA, Amity University Rajasthan" }
       ]
     },
     {
@@ -219,6 +213,7 @@ const Committee = () => {
       members: [
         { name: "Prof. Parul Mishra", image: "/organizing-committee/parul-mishra.jpeg", affiliation: "ASL, Amity University Rajasthan" },
         { name: "Dr. Sachin Bansal", image: "/organizing-committee/sachin-bansal.jpeg", affiliation: "ASET, Amity University Rajasthan" },
+        { name: "Mr. Kapil Dangi", image: "/organizing-committee/kapil-dangi.jpeg", affiliation: "ASLA/ASFA, Amity University Rajasthan" },
         { name: "Mr. Ravi Verma", image: "/organizing-committee/ravi-verma.jpeg", affiliation: "ASCENT, Amity University Rajasthan" },
         { name: "Mr. Radhey Shyam", image: "/organizing-committee/radhey-shyam.jpeg", affiliation: "ASFA, Amity University Rajasthan" },
         { name: "Mr. R. K Pachauri", image: "/organizing-committee/rk-pachauri.jpeg", affiliation: "IT, Amity University Rajasthan" }
@@ -234,51 +229,51 @@ const Committee = () => {
       group: "Finance Committee",
       members: [
         { name: "Prof. (Dr.) Manju Kaushik", image: "/organizing-committee/manju-kaushik.webp", affiliation: "AIIT, Amity University Rajasthan" },
-        { name: "Mr. Manish Sharma", image: "/organizing-committee/manish-sharma.png", affiliation: "AGM, Accounts, Amity University Rajasthan" },
+        { name: "Mr. Manish Sharma", image: "/organizing-committee/manish-sharma.jpg", affiliation: "AGM, Accounts, Amity University Rajasthan" },
         { name: "Mr. Raj Kumar", image: "/organizing-committee/raj-kumar.jpeg", affiliation: "Assistant Manager, Accounts, Amity University Rajasthan" },
-        { name: "Mr. Rohit Kushwah", image: "/organizing-committee/rohit-kushwaha.jpeg", affiliation: "Office Assistant, AII, Amity University Rajasthan" }
+        { name: "Mr. Rohit Kushwah", image: "/organizing-committee/rohit-kushwaha.jpg", affiliation: "Office Assistant, AII, Amity University Rajasthan" }
       ]
     }
   ];
-  
 
 
-    return (
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-10 py-8">
-            <h2 className="text-2xl font-bold text-[#005B96] mb-6">
-                Committee Members
-            </h2>
 
-            {groups.map((group, idx) => (
-                <div key={idx} className="mb-6 border rounded-md overflow-hidden shadow-sm">
+  return (
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-10 py-8">
+      <h2 className="text-2xl font-bold text-[#005B96] mb-6">
+        Committee Members
+      </h2>
 
-                    <div className="bg-[#005B96] text-white font-semibold px-4 py-2 text-lg">
-                        {group.group}
-                    </div>
+      {groups.map((group, idx) => (
+        <div key={idx} className="mb-6 border rounded-md overflow-hidden shadow-sm">
 
-                    <ul>
-                        {group.members.map((member, mIdx) => (
-                            <li
-                                key={mIdx}
-                                className={`flex hover:bg-gray-200 transition duration-200 ease-in-out items-center px-4 py-3 border-b last:border-b-0 ${mIdx % 2 === 0 ? "bg-gray-100" : "bg-white"
-                                    }`}
-                            >
-                                <img
-                                    src={member.image}
-                                    alt={member.name}
-                                    className="w-12 h-12 md:w-16 md:h-16 rounded-full mr-4 object-cover"
-                                />
-                                <div>
-                                    <div className="font-semibold text-sm md:text-base">{member.name}</div>
-                                    <div className="text-xs md:text-sm text-gray-600">{member.affiliation}</div>
-                                </div>
-                            </li>
-                        ))}
-                    </ul>
+          <div className="bg-[#005B96] text-white font-semibold px-4 py-2 text-lg">
+            {group.group}
+          </div>
+
+          <ul>
+            {group.members.map((member, mIdx) => (
+              <li
+                key={mIdx}
+                className={`flex hover:bg-gray-200 transition duration-200 ease-in-out items-center px-4 py-3 border-b last:border-b-0 ${mIdx % 2 === 0 ? "bg-gray-100" : "bg-white"
+                  }`}
+              >
+                <img
+                  src={member.image}
+                  alt={member.name}
+                  className="w-12 h-12 md:w-16 md:h-16 rounded-full mr-4 object-cover"
+                />
+                <div>
+                  <div className="font-semibold text-sm md:text-base">{member.name}</div>
+                  <div className="text-xs md:text-sm text-gray-600">{member.affiliation}</div>
                 </div>
+              </li>
             ))}
+          </ul>
         </div>
-    );
+      ))}
+    </div>
+  );
 };
 
 export default Committee;
