@@ -20,9 +20,7 @@ export default function InfiniteMarquee() {
           Algorithms for Intelligent Systems series (Proposal submitted for
           approval).
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All accepted and presented papers
-          will be published in the conference proceedings by Springer in the
-          Algorithms for Intelligent Systems series (Proposal submitted for
-          approval).
+          will be published in the conference proceedings by 
         </a>
       </div>
 
