@@ -16,9 +16,7 @@ export default function InfiniteMarquee() {
       >
         <a href="/" className="inline-block text-[#0D2C54] font-semibold text-base">
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All accepted and presented papers
-          will be published in the conference proceedings by Springer in the
-          Algorithms for Intelligent Systems series (Proposal submitted for
-          approval).
+          will be published in the conference proceedings by 
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All accepted and presented papers
           will be published in the conference proceedings by 
         </a>
