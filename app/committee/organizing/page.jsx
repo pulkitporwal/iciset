@@ -46,11 +46,11 @@ const Committee = () => {
           image: "/organizing-committee/sl-kothari.jpeg",
           affiliation: "Vice President - ASTIF"
         },
-        {
-          name: "Prof. (Dr.) Kamal K Dwivedi",
-          image: "/organizing-committee/kamal-dwivedi.png",
-          affiliation: "Senior Vice-President, RBEF"
-        }
+        // {
+        //   name: "Prof. (Dr.) Kamal K Dwivedi",
+        //   image: "/organizing-committee/kamal-dwivedi.png",
+        //   affiliation: "Senior Vice-President, RBEF"
+        // }
       ]
     },
     {
@@ -106,6 +106,11 @@ const Committee = () => {
     {
       group: "Program Chairs",
       members: [
+        {
+          name: "Dr. Nikita Jain",
+          image: "/organizing-committee/nikita-jain.png",
+          affiliation: "Prof and HEAD, Dept of Computer Engineering, Poornima College of Engineering Jaipur"
+        },
         {
           name: "Dr. Chitresh Banerjee",
           image: "/organizing-committee/chitresh-banerjee.png",
@@ -197,7 +202,7 @@ const Committee = () => {
       members: [
         { name: "Prof. (Dr.) Manju Kaushik", image: "/organizing-committee/manju-kaushik.webp", affiliation: "AIIT, Amity University Rajasthan" },
         { name: "Mr. Ram Pratap Singh", image: "/organizing-committee/ram-pratap-singh.jpg", affiliation: "Admin, Amity University Rajasthan" },
-        { name: "Mr. Akash Das", image: "/organizing-committee/akash-das.jpeg", affiliation: "Admin, Amity University Rajasthan" }
+        { name: "Mr. Abhishek Pareek", image: null && "/organizing-committee/akash-das.jpeg", affiliation: "Admin, Amity University Rajasthan" }
       ]
     },
     {
@@ -206,7 +211,7 @@ const Committee = () => {
         { name: "Dr. Yudhveer Singh", image: "/organizing-committee/yudhveer-singh.png", affiliation: "AIIT, Amity University Rajasthan" },
         { name: "Ms. Adity", image: "/organizing-committee/adity.jpg", affiliation: "ASH, Amity University Rajasthan" },
         { name: "Mr. Ram Pratap Singh", image: "/organizing-committee/ram-pratap-singh.jpg", affiliation: "Admin, Amity University Rajasthan" },
-        { name: "Mr. Akash Das", image: "/organizing-committee/akash-das.jpeg", affiliation: "Admin, Amity University Rajasthan" }
+        { name: "Mr. Abhishek Pareek", image: null && "/organizing-committee/akash-das.jpeg", affiliation: "Admin, Amity University Rajasthan" }
       ]
     },
     {
