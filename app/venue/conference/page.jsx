@@ -108,7 +108,7 @@ const ConferenceVenue = () => {
 
   return (
     <div>
-      <TextSection title="Conference Venue">
+      <TextSection title="Conference Venue: Amity University Rajasthan">
         <div className="px-4 py-2 flex flex-col items-center justify-center gap-3">
           <img
             src="/amity-campus.webp"

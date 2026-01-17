@@ -20,8 +20,9 @@ export default function Home() {
       <div className="bg-pattern">
         <div className="px-4 sm:px-6 lg:px-10 xl:mx-24 pt-4 pb-8">
           <div className="flex flex-col md:flex-row items-start lg:items-center justify-center gap-6 lg:gap-x-10">
-            <NewsSection />
-            <ImportantDates /></div>
+            {/* <NewsSection />
+            <ImportantDates /> */}
+          </div>
         </div>
         <TextSection title={"About the Conference"}>
           <p>

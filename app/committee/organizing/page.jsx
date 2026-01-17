@@ -145,7 +145,12 @@ const Committee = () => {
           name: "Prof. (Dr.) Manju Kaushik",
           image: "/organizing-committee/manju-kaushik.webp",
           affiliation: "AIIT, Amity University Rajasthan"
-        }
+        },
+        {
+          name: "Dr. Nikita Jain",
+          image: "/organizing-committee/nikita-jain.png",
+          affiliation: "Prof and HEAD, Dept of Computer Engineering, Poornima College of Engineering Jaipur"
+        },
       ]
     },
     {
