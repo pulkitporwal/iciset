@@ -137,11 +137,6 @@ const Committee = () => {
       group: "Publication Committee",
       members: [
         {
-          name: "Prof. Ramesh Chandra Poonia",
-          image: "/organizing-committee/ramesh-chandra-poonia.jpeg",
-          affiliation: "CHRIST (Deemed to be University), Delhi-NCR, Ghaziabad, Uttar Pradesh"
-        },
-        {
           name: "Prof. (Dr.) Manju Kaushik",
           image: "/organizing-committee/manju-kaushik.webp",
           affiliation: "AIIT, Amity University Rajasthan"
@@ -158,8 +153,7 @@ const Committee = () => {
       members: [
         { name: "Dr. Yudhveer Singh", image: "/organizing-committee/yudhveer-singh.png", affiliation: "AIIT, Amity University Rajasthan" },
         { name: "Dr. Chitresh Banerjee", image: "/organizing-committee/chitresh-banerjee.png", affiliation: "AIIT, Amity University Rajasthan" },
-        { name: "Dr. Abhineet Saxena", image: "/organizing-committee/abhineet-saxena.jpg", affiliation: "ABS, Amity University Rajasthan" },
-        { name: "Dr. Honey Gocher", image: "/organizing-committee/honey-gocher.jpeg", affiliation: "AIIT, Amity University Rajasthan" }
+        { name: "Dr. Rakhi Mutha", image: "/organizing-committee/rakhi-mutha.jpg", affiliation: "AIIT, Amity University Rajasthan" }
       ]
     },
     {

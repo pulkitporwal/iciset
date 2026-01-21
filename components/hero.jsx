@@ -13,7 +13,7 @@ const Hero = () => {
       className={`relative w-full min-h-[50vh] md:min-h-[60vh] lg:min-h-[70vh] bg-[url(/amity-campus.webp)] bg-cover bg-no-repeat bg-center flex items-center justify-center ${montserrat_alt.className}`}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-white/50"></div>
+      <div className="absolute inset-0 bg-white/70"></div>
 
       {/* Content */}
       <div className="relative px-4 sm:px-6 flex items-center flex-col gap-y-4 md:gap-y-6 py-2 pb-5">
@@ -36,7 +36,8 @@ const Hero = () => {
         </h2>
 
         <h2 className='font-semibold text-xl md:text-2xl text-center text-[#005B96]'>
-          20<sup>th</sup> & 21<sup>st</sup> April, 2026
+
+          17<sup>th</sup> & 18<sup>st</sup> September, 2026
         </h2>
       </div>
     </div>
