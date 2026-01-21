@@ -13,34 +13,83 @@ const Registration = () => {
       <TextSection title="Registration">
         <div className="overflow-x-auto">
           <table className="min-w-full border border-gray-200 text-sm text-left">
-            <thead className="bg-gray-100">
-              <tr>
-                <th className="px-4 py-2 border">Category</th>
-                <th className="px-4 py-2 border">Indian Delegates</th>
-                <th className="px-4 py-2 border">Foreign Delegates</th>
+            <thead>
+              <tr className="bg-gray-100">
+                <th rowSpan={2} className="px-4 py-2 border text-center">
+                  Category
+                </th>
+                <th colSpan={2} className="px-4 py-2 border text-center">
+                  Early Bird Registration<br />(15th July, 2026 )
+                </th>
+                <th colSpan={2} className="px-4 py-2 border text-center">
+                  Late Registration<br />(25th July 2026)
+                </th>
+              </tr>
+              <tr className="bg-gray-50">
+                <th className="px-4 py-2 border text-center">National Authors (INR)</th>
+                <th className="px-4 py-2 border text-center">International Authors ($)</th>
+                <th className="px-4 py-2 border text-center">National Authors (INR)</th>
+                <th className="px-4 py-2 border text-center">International Authors ($)</th>
               </tr>
             </thead>
+
             <tbody>
               <tr className="hover:bg-gray-50">
-                <td className="px-4 py-2 border font-medium">Industry person</td>
-                <td className="px-4 py-2 border">Rs. 8000/-</td>
-                <td className="px-4 py-2 border">US$ 90/-</td>
+                <td className="px-4 py-2 border font-medium">
+                  Regular author academician/industry person
+                </td>
+                <td className="px-4 py-2 border text-center">₹8100</td>
+                <td className="px-4 py-2 border text-center">$220</td>
+                <td className="px-4 py-2 border text-center">₹9100</td>
+                <td className="px-4 py-2 border text-center">$330</td>
               </tr>
+
               <tr className="hover:bg-gray-50">
-                <td className="px-4 py-2 border font-medium">Student (Full time)</td>
-                <td className="px-4 py-2 border">Rs. 6000/-</td>
-                <td className="px-4 py-2 border">US$ 70/-</td>
+                <td className="px-4 py-2 border font-medium">
+                  Regular author academician/industry person (IEEE/ACM)
+                </td>
+                <td className="px-4 py-2 border text-center">₹7200</td>
+                <td className="px-4 py-2 border text-center">$240</td>
+                <td className="px-4 py-2 border text-center">₹8100</td>
+                <td className="px-4 py-2 border text-center">$300</td>
               </tr>
+
               <tr className="hover:bg-gray-50">
-                <td className="px-4 py-2 border font-medium">Attendees/Participating</td>
-                <td className="px-4 py-2 border">Rs. 2000/-</td>
-                <td className="px-4 py-2 border">US$ 25/-</td>
+                <td className="px-4 py-2 border font-medium">
+                  Regular author student (Ph.D./PG)
+                </td>
+                <td className="px-4 py-2 border text-center">₹6200</td>
+                <td className="px-4 py-2 border text-center">$140</td>
+                <td className="px-4 py-2 border text-center">₹7200</td>
+                <td className="px-4 py-2 border text-center">$240</td>
+              </tr>
+
+              <tr className="hover:bg-gray-50">
+                <td className="px-4 py-2 border font-medium">
+                  Regular author student (Ph.D./PG) IEEE/ACM
+                </td>
+                <td className="px-4 py-2 border text-center">₹5400</td>
+                <td className="px-4 py-2 border text-center">$120</td>
+                <td className="px-4 py-2 border text-center">₹6300</td>
+                <td className="px-4 py-2 border text-center">$150</td>
+              </tr>
+
+              <tr className="hover:bg-gray-50">
+                <td className="px-4 py-2 border font-medium">
+                  Attendee / Co-author
+                </td>
+                <td className="px-4 py-2 border text-center">60% of respective category</td>
+                <td className="px-4 py-2 border text-center">60% of respective category</td>
+                <td className="px-4 py-2 border text-center">60% of respective category</td>
+                <td className="px-4 py-2 border text-center">60% of respective category</td>
               </tr>
             </tbody>
+
             <caption className="caption-bottom text-gray-500 text-xs p-2">
-              Note: Registration fee inclusive of 18% GST.
+              Note: Registration fee of 18% GST applicable on Non-Amitian delegates.
             </caption>
           </table>
+
         </div>
 
         <h3 className="text-lg font-semibold mt-6 mb-2 text-gray-800">
